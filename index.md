@@ -1,3 +1,12 @@
+<nav>
+  <ul>
+    <li><a href="#À propos de moi">À propos de moi</a></li>
+    <li><a href="#Projets">Projets</a></li>
+    <li><a href="#Compétences">Compétences</a></li>
+    <li><a href="#Contact">Contact</a></li>
+  </ul>
+</nav>
+
 <section id="À propos de moi">
   <h2>À propos de moi</h2>
   <p> Je m'appelle Perrine Warter, actuellement étudiante en master 1 de Data Sciences en Santé à Ilis, je me spécialise dans l'analyse de données appliquée aux domaines de la santé et de la biologie. <br> <br>
