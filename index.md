@@ -23,6 +23,12 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
       Projet 2 : Identification et caractérisation des mutations responsables de la dystrophie musculaire d'Emery-Dreifuss.<br>
       <em> Pour en savoir plus : </em><a href="projet2.html">Projet 2</a>
     </li>
+    <br> 
+    <li>
+      Projet 3 : Analyse de l'impact des facteurs de risque sur l'athérosclérose. <br>
+      <em> Pour en savoir plus : </em><a href="arthéro.html">Projet 3</a>
+    </li>
+    <br> 
   </ul>
 </section>
 
