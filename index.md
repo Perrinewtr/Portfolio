@@ -1,14 +1,14 @@
 <section id="À propos de moi">
   <h2>À propos de moi</h2>
-  <p> Je m'appelle Perrine Warter, actuellement étudiante en master 1 de Data Sciences en Santé à Ilis, je me spécialise dans l'analyse de données appliquée aux domaines de la santé et de la biologie. <br>
+  <p> Je m'appelle Perrine Warter, actuellement étudiante en master 1 de Data Sciences en Santé à Ilis, je me spécialise dans l'analyse de données appliquée aux domaines de la santé et de la biologie. <br> <br>
     
-Voici mon portfolio, qui rassemble les projets passionnants que j'ai pu réaliser dans le cadre de mes études et de mes expériences professionnelles.<br>
+Voici mon portfolio, qui rassemble les projets passionnants que j'ai pu réaliser dans le cadre de mes études et de mes expériences professionnelles.<br> <br>
 
 Découvrez mon parcours professionnel et mes compétences en Data Science à travers mon CV ci-dessous. </p>
 
 <a href="https://github.com/Perrinewtr/Portfolio/blob/main/CV%20Perrine_12%3A2024.pdf">CV</a>
 
-
+<br>
 <section id="Projets">
   <h2>Mes projets</h2>
   <p>Voici les différents projets que j'ai pu réaliser durant mes études.</p>
