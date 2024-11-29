@@ -3,3 +3,4 @@ Voici mon portfolio, qui rassemble les projets passionnants que j'ai pu réalise
 
 
 - [Projets](projets.md)
+- [Compétences](compétences.md) 
