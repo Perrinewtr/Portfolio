@@ -42,6 +42,10 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
       <em> Pour en savoir plus : </em><a href="arthero.html">Projet 3</a>
     </li>
     <br> 
+    <li>
+      Projet 4 : Survie de patients dans une unité de soins intensifs. <br>
+      <em> Pour en savoir plus : </em><a href="survie.html">Projet 4</a>
+    </li>
   </ul>
 </section>
 
