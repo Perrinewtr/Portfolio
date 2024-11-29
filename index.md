@@ -26,7 +26,7 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
     <br> 
     <li>
       Projet 3 : Analyse de l'impact des facteurs de risque sur l'athérosclérose. <br>
-      <em> Pour en savoir plus : </em><a href="arthéro.html">Projet 3</a>
+      <em> Pour en savoir plus : </em><a href="arthero.html">Projet 3</a>
     </li>
     <br> 
   </ul>
