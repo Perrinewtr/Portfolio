@@ -1,3 +1,7 @@
+<head>
+  <link rel="stylesheet" href="barre.css"> 
+</head>
+
 <nav>
   <ul>
     <li><a href="#À propos de moi">À propos de moi</a></li>
