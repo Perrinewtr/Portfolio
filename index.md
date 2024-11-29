@@ -4,3 +4,9 @@ Voici mon portfolio, qui rassemble les projets passionnants que j'ai pu réalise
 
 - [Projets](projets.md)
 - [Compétences](compétences.md) 
+
+
+**Contact :**
+Téléphone 📞 : 0781640860
+Email 📧 : warter.perrine@orange.fr
+LinkedIn 🔗 : <a href="[Perrine Warter ](https://www.linkedin.com/in/perrine-warter-140a3026a/)" target="_blank">Perrine Warter</a>
