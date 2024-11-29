@@ -38,12 +38,10 @@ background-color: #2791a3;
   <ul>
     <li>
       - Projet 1 : Prédiction des maladies hépatiques à partir des taux d'enzymes sanguines. 
-      <br> 
       Pour en savoir plus : <a href="projets.md">Projets</a>
     </li>
     <li>
       - Projet 2 : Identification et caractérisation des mutations responsables de la dystrophie musculaire d'Emery-Dreifuss.
-      <br>
       Pour en savoir plus : <a href="projet2.md">Projets</a>
     </li>
   </ul>
