@@ -2,7 +2,10 @@ Bonjour, je m'appelle Perrine Warter, actuellement étudiante en master 1 de Dat
 Voici mon portfolio, qui rassemble les projets passionnants que j'ai pu réaliser dans le cadre de mes études et de mes expériences professionnelles.
 
 Découvrez mon parcours professionnel et mes compétences en Data Science à travers mon CV ci-dessous.
-<a href= "https://github.com/Perrinewtr/Portfolio/blob/main/CV%20Perrine_12%3A2024.pdf"target="_blank">CV</a>
+<a href = "https://github.com/Perrinewtr/Portfolio/blob/main/CV%20Perrine_12%3A2024.pdf" style="display: inline-block; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px;">
+  CV
+</a>
+<br><br>
 
 - [Projets](projets.md)
 - [Compétences](compétences.md) 
