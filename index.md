@@ -6,16 +6,24 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
 
 <style>
 .cv-button {
-  padding: 10px 20px;
+  padding: 8px 16px;
   background-color: #4CAF50; /* Couleur verte */
   color: white;
   text-align: center;
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
+  font-weight: 500;
+  font-size: 16px; 
+  border: 1px solid 
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .cv-button:hover {
   background-color: #45a049;
+  transform: scale(1.05);
+}
+.cv-button:active {
+background-color: #3e8e41; /* Couleur plus sombre lorsqu'on clique */
 }
 </style>
 
