@@ -6,13 +6,13 @@ Voici mon portfolio, qui rassemble les projets passionnants que j'ai pu réalise
 
 <section id="CV">
   <h2>CV</h2>
-<p> Découvrez mon parcours professionnel et mes compétences en Data Science à travers mon CV ci-dessous.</p> <br>
+<p> Découvrez mon parcours professionnel et mes compétences en Data Science à travers mon CV ci-dessous.</p> 
 
 <a href="https://github.com/Perrinewtr/Portfolio/blob/main/CV%20Perrine_12%3A2024.pdf" download class="cv-button">CV</a>
 <style>
 .cv-button {
   padding: 6px 20px;
-  background-color: #5bc0de;
+  background-color: #2ecc71
   color: #1d3557;
   color: white;
   text-align: center;
@@ -26,7 +26,7 @@ Voici mon portfolio, qui rassemble les projets passionnants que j'ai pu réalise
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .cv-button:hover {
-  background-color: #31a7c9;
+  background-color: #27ae60;
   transform: scale(1.05);
 }
 .cv-button:active {
