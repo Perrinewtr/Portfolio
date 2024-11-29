@@ -1,12 +1,12 @@
-**Projet 1 :** <br>
+layout: default
+title: "Projet 1 - Prédiction des maladies hépatiques"
+---
 
-**Titre :** Prédiction des maladies hépatiques à partir des taux d'enzymes sanguines.<br>
-**Objectif :** Étudier les problèmes de foie de différents patients en analysant leurs taux de différentes enzymes sanguines et leurs diagnostics de maladie.<br>
-**Langages :** R<br>
+<h1>Projet 1 : Prédiction des maladies hépatiques à partir des taux d'enzymes sanguines</h1>
 
-<a href = "https://github.com/Perrinewtr/Portfolio/blob/main/rapport_foie.pdf" style="display: inline-block; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px;">
-  Projet 1
-</a>
-<br><br>
+<p><strong>Objectif :</strong> Étudier les problèmes de foie de différents patients en analysant leurs taux de différentes enzymes sanguines et leurs diagnostics de maladie.</p>
+<p><strong>Langages :</strong> R</p>
+
+<a href="https://raw.githubusercontent.com/Perrinewtr/Portfolio/main/rapport_foie.pdf" class="btn btn-primary">Télécharger le rapport</a>
 
 
