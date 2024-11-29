@@ -27,8 +27,7 @@ background-color: #67a7a3; /* Couleur plus sombre lorsqu'on clique */
 }
 </style>
 
-<br><br>
-
+<br>
 - [Projets](projets.md)
 - [Compétences](compétences.md) 
 
