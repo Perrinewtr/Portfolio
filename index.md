@@ -21,7 +21,7 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
     <br> 
     <li>
       Projet 2 : Identification et caractérisation des mutations responsables de la dystrophie musculaire d'Emery-Dreifuss.<br>
-      <em> Pour en savoir plus : </em><a href="https://github.com/Perrinewtr/Portfolio/blob/main/projet2.md">Projet 2</a>
+      <em> Pour en savoir plus : </em><a href="projet2.html">Projet 2</a>
     </li>
   </ul>
 </section>
