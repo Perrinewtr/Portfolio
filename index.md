@@ -35,7 +35,8 @@ background-color: #2791a3;
   <h2>Mes projets</h2>
   <p> Voici les différents projets que j'ai pu réalisé durant mes études. 
   - Projet 1 : Prédiction des maladies hépatiques à partir des taux d'enzymes sanguines.
-  - Projet 2 : <p>
+    
+  - Projet 2 : Identification et caractérisation des mutations responsables de la dystrophie musculaire d'Emery-Dreifuss <p>
 
 </section>
 
