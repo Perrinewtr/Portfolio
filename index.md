@@ -1,9 +1,3 @@
----
-layout : default 
-title: "Mon parcours en Data Science"
-description: "Voici mon portfolio de projets de Data Science en Santé"
----
-
 <section id="À propos de moi">
   <h2>À propos de moi</h2>
   <p> Je m'appelle Perrine Warter, actuellement étudiante en master 1 de Data Sciences en Santé à Ilis, je me spécialise dans l'analyse de données appliquée aux domaines de la santé et de la biologie. <br> <br>
