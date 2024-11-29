@@ -1,4 +1,4 @@
-<h1 style="color:blue;">**Projet 1 :** <br>
+<h1 style="color:blue;"> **Projet 1 :** <br> </h1>
 
 **Titre :** Prédiction des maladies hépatiques à partir des taux d'enzymes sanguines.<br>
 **Objectif :** Étudier les problèmes de foie de différents patients en analysant leurs taux de différentes enzymes sanguines et leurs diagnostics de maladie.<br>
