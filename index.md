@@ -34,6 +34,7 @@ background-color: #2791a3;
 <section id="Projets">
   <h2>Mes projets</h2>
   <p> Voici les différents projets que j'ai pu réalisé durant mes études.<br> 
+    
   - Projet 1 : Prédiction des maladies hépatiques à partir des taux d'enzymes sanguines. <br>
   Pour en savoir plus [Projets](projets.md)
     
