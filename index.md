@@ -8,7 +8,7 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
 
 <a href="https://github.com/Perrinewtr/Portfolio/blob/main/CV%20Perrine_12%3A2024.pdf">CV</a>
 
-<br>
+<br><br>
 <section id="Projets">
   <h2>Mes projets</h2>
   <p>Voici les différents projets que j'ai pu réaliser durant mes études.</p>
