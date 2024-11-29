@@ -12,13 +12,11 @@ Voici mon portfolio, qui rassemble les projets passionnants que j'ai pu réalise
 <style>
 .cv-button {
   padding: 6px 20px;
-  background-color: #2ecc71
-  color: #1d3557;
+  background-color: #2ecc71;
   color: white;
   text-align: center;
   border-radius: 5px;
   text-decoration: none;
-  font-weight: bold;
   font-weight: 500;
   font-size: 16px; 
   display: inline-block;
