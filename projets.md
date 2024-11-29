@@ -1,4 +1,4 @@
-**Projet 1 :** <br><br>
+**Projet 1 :** <br>
 
 **Titre :** Prédiction des maladies hépatiques à partir des taux d'enzymes sanguines.<br>
 **Objectif :** Étudier les problèmes de foie de différents patients en analysant leurs taux de différentes enzymes sanguines et leurs diagnostics de maladie.<br>
@@ -9,7 +9,7 @@
 </a>
 <br><br>
 
-**Projet 2 :** <br><br>
+**Projet 2 :** <br>
 
 **Titre :** Identification et caractérisation des mutations responsables de la dystrophie musculaire d'Emery-Dreifuss
 
