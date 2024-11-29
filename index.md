@@ -30,25 +30,34 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
 
 <section id="Compétences">
   <h2>Mes compétences</h2>
-  <p> Compétences techniques
-    Langage de programmation : 
-    - Python
-    - R
-    - SQL
-    
-    Outil de Data Sciences :
-    - Jupyter, Rstudio, Visual Studio Code, Pycharm
-    - Outils statistiques
-    - Gestion et nettoyage des données
-    - Web scraping
-    - Web crawling
-    
-    Base de données et gestion de données :
-    - SQLite
-    - DataHub
-    - DBeaver
-    - GitLab </p>
-
+  <p><strong>Compétences techniques :</strong></p>
+  
+  <h3>Langage de programmation :</h3>
+  <ul>
+    <li>Python</li>
+    <li>R</li>
+    <li>SQL</li>
+  </ul>
+  
+  <h3>Outil de Data Sciences :</h3>
+  <ul>
+    <li>Jupyter</li>
+    <li>Rstudio</li>
+    <li>Visual Studio Code</li>
+    <li>Pycharm</li>
+    <li>Outils statistiques</li>
+    <li>Gestion et nettoyage des données</li>
+    <li>Web scraping</li>
+    <li>Web crawling</li>
+  </ul>
+  
+  <h3>Base de données et gestion de données :</h3>
+  <ul>
+    <li>SQLite</li>
+    <li>DataHub</li>
+    <li>DBeaver</li>
+    <li>GitLab</li>
+  </ul>
 </section>
 
 
