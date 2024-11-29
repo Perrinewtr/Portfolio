@@ -72,7 +72,7 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
 </section>
 
 
-<section id="contact">
+<section id="Contact">
   <h2>Contact</h2>
   <p> Téléphone 📞 : 0781640860 <br>
     Email 📧 : warter.perrine@orange.fr <br>
