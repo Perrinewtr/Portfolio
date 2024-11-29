@@ -47,7 +47,7 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
     - SQLite
     - DataHub
     - DBeaver
-    - GitLab
+    - GitLab </p>
 
 </section>
 
