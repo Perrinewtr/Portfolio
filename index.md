@@ -33,14 +33,19 @@ background-color: #2791a3;
 
 <section id="Projets">
   <h2>Mes projets</h2>
-  <p> Voici les différents projets que j'ai pu réalisé durant mes études.<br> 
+  <p>Voici les différents projets que j'ai pu réaliser durant mes études.</p>
+  
+  <ul>
+    <li>
+      Projet 1 : Prédiction des maladies hépatiques à partir des taux d'enzymes sanguines. <br>
+      Pour en savoir plus <a href="projets.md">Projets</a>
+    </li>
     
-  - Projet 1 : Prédiction des maladies hépatiques à partir des taux d'enzymes sanguines. <br>
-  Pour en savoir plus [Projets](projets.md)
-    
-  - Projet 2 : Identification et caractérisation des mutations responsables de la dystrophie musculaire d'Emery-Dreifuss <p> <br>
-  Pour en savoir plus [Projets](projets2.md)
-
+    <li>
+      Projet 2 : Identification et caractérisation des mutations responsables de la dystrophie musculaire d'Emery-Dreifuss. <br>
+      Pour en savoir plus <a href="projets2.md">Projets</a>
+    </li>
+  </ul>
 </section>
 
     
