@@ -30,20 +30,20 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
 
 <section id="Compétences">
   <h2>Mes compétences</h2>
-  <p> **Compétences techniques**
-    *Langage de programmation :* 
+  <p> Compétences techniques
+    Langage de programmation : 
     - Python
     - R
     - SQL
     
-    *Outil de Data Sciences :* 
+    Outil de Data Sciences :
     - Jupyter, Rstudio, Visual Studio Code, Pycharm
     - Outils statistiques
     - Gestion et nettoyage des données
     - Web scraping
     - Web crawling
     
-    *Base de données et gestion de données :*
+    Base de données et gestion de données :
     - SQLite
     - DataHub
     - DBeaver
