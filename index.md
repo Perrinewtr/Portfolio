@@ -29,7 +29,6 @@ background-color: #388e3c;
 }
 </style>
 
-<br>
 - [Projets](projets.md)
 - [Compétences](compétences.md) 
 
