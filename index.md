@@ -49,7 +49,6 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
 
 <section id="Compétences">
   <h2>Mes compétences</h2>
-
   <h3>Langage de programmation :</h3>
   <ul>
     <li>Python</li>
