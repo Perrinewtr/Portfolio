@@ -16,7 +16,7 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
   <ul>
     <li>
       Projet 1 : Prédiction des maladies hépatiques à partir des taux d'enzymes sanguines. <br>
-      <em> Pour en savoir plus : </em><a href="projets.md">Projet 1</a> <br>
+      <em> Pour en savoir plus : </em><a href="projet.html">Projet 1</a> <br>
     </li>
     <br> 
     <li>
