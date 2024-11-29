@@ -4,7 +4,9 @@
 Voici mon portfolio, qui rassemble les projets passionnants que j'ai pu réaliser dans le cadre de mes études et de mes expériences professionnelles.</p>
 </section>
 
-Découvrez mon parcours professionnel et mes compétences en Data Science à travers mon CV ci-dessous. <br>
+<section id="CV">
+  <h2>CV</h2>
+<p> Découvrez mon parcours professionnel et mes compétences en Data Science à travers mon CV ci-dessous.</p> <br>
 
 <a href="https://github.com/Perrinewtr/Portfolio/blob/main/CV%20Perrine_12%3A2024.pdf" download class="cv-button">CV</a>
 <style>
@@ -31,12 +33,15 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
 background-color: #2791a3;
 }
 </style>
+</section>
 
 - [Projets](projets.md)
 - [Compétences](compétences.md) 
 
 
-**Contact :** <br>
-Téléphone 📞 : 0781640860 <br>
-Email 📧 : warter.perrine@orange.fr <br>
-LinkedIn 🔗 : <a href="https://www.linkedin.com/in/perrine-warter-140a3026a" target="_blank">Perrine Warter</a>
+<section id="contact">
+  <h2>Contact</h2>
+  <p> Téléphone 📞 : 0781640860 <br>
+    Email 📧 : warter.perrine@orange.fr <br>
+    LinkedIn 🔗 : <a href="https://www.linkedin.com/in/perrine-warter-140a3026a" target="_blank">Perrine Warter</a> </p>
+</section>
