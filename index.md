@@ -6,7 +6,7 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
 <a href="https://github.com/Perrinewtr/Portfolio/blob/main/CV%20Perrine_12%3A2024.pdf" download class="cv-button">CV</a>
 <style>
 .cv-button {
-  padding: 8px 20px;
+  padding: 6px 20px;
   background-color: #5bc0de;
   color: #1d3557;
   color: white;
