@@ -30,8 +30,7 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
 
 <section id="Compétences">
   <h2>Mes compétences</h2>
-  <p><strong>Compétences techniques :</strong></p>
-  
+
   <h3>Langage de programmation :</h3>
   <ul>
     <li>Python</li>
@@ -41,10 +40,7 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
   
   <h3>Outil de Data Sciences :</h3>
   <ul>
-    <li>Jupyter</li>
-    <li>Rstudio</li>
-    <li>Visual Studio Code</li>
-    <li>Pycharm</li>
+    <li>Jupyter, Rstudio, Visual Studio Code, Pycharm</li>
     <li>Outils statistiques</li>
     <li>Gestion et nettoyage des données</li>
     <li>Web scraping</li>
