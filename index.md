@@ -33,8 +33,11 @@ background-color: #2791a3;
 
 <section id="Projets">
   <h2>Mes projets</h2>
-  <p>Voici les différents projets que j'ai pu réaliser durant mes études.</p>
-  
+  <p>Voici les différents projets que j'ai pu réaliser durant mes études.
+    
+   - Projet 1 : Prédiction des maladies hépatiques à partir des taux d'enzymes sanguines. 
+      Pour en savoir plus</p> - [Projets](projets.md) 
+
   <ul>
     <li>
       Projet 1 : Prédiction des maladies hépatiques à partir des taux d'enzymes sanguines. <br>
