@@ -1,7 +1,6 @@
 title: "Mon parcours en Data Science"
-description: "Voici mon portfolio de projets de Data Science en Santé"
+description: "Voici mon portfolio de projets de Data Science en Santé <br><br>  Perrine Warter"
 author : Perrine Warter 
-show_author_in_header: true
 url :  "https://perrinewtr.github.io/Portfolio/"
 theme: jekyll-theme-cayman
 
