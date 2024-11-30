@@ -19,7 +19,7 @@ Voici mon portfolio, qui rassemble une sélection des projets que j'ai pu réali
 
 Découvrez mon parcours professionnel et mes compétences en Data Science à travers mon CV <br> ci-dessous. </p>
 
-<a href="https://github.com/Perrinewtr/Portfolio/blob/main/CV%20Perrine_12%3A2024.pdf">CV</a>
+<a href="https://raw.githubusercontent.com/Perrinewtr/Portfolio/main/CV%20Perrine_12%3A2024.pdf" download>CV</a>
 </section>
 <br><br>
 <section id="Projets">
