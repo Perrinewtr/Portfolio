@@ -13,9 +13,9 @@
 
 <section id="À propos de moi">
   <h2>À propos de moi</h2>
-  <p> Je m'appelle Perrine Warter, actuellement étudiante en master 1 de Data Sciences en Santé à Ilis, je me spécialise dans l'analyse de données appliquée aux domaines de la santé et de la biologie. <br> <br>
+  <p> Actuellement étudiante en master 1 de Data Sciences en Santé à Ilis, je me spécialise dans l'analyse de données appliquée aux domaines de la santé et de la biologie. <br> <br>
     
-Voici mon portfolio, qui rassemble les projets passionnants que j'ai pu réaliser dans le cadre de mes études et de mes expériences professionnelles.<br> <br>
+Voici mon portfolio, qui rassemble une sélection des projets que j'ai pu réaliser dans le cadre de mes études et de mes expériences professionnelles.<br> <br>
 
 Découvrez mon parcours professionnel et mes compétences en Data Science à travers mon CV ci-dessous. </p>
 
@@ -82,6 +82,6 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
 <section id="Contact">
   <h2>Contact</h2>
   <p> Téléphone 📞 : 0781640860 <br>
-    Email 📧 : warter.perrine@orange.fr <br>
+    Email 📧 : <a href = "warter.perrine@orange.fr" </a> <br>
     LinkedIn 🔗 : <a href="https://www.linkedin.com/in/perrine-warter-140a3026a" target="_blank">Perrine Warter</a> </p>
 </section>
