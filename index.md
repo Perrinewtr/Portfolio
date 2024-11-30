@@ -1,14 +1,6 @@
----
-layout: default
----
-
 <head>
   <link rel="stylesheet" href="barre.css"> 
 </head>
-
-<h1>{{ site.title }}</h1>
-<p>{{ site.description }}</p>
-<p><strong>Auteur :</strong> {{ site.author }}</p>
 
 <nav>
   <ul>
