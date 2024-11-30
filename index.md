@@ -1,3 +1,13 @@
+---
+layout: default
+---
+
+# {{ site.title }}
+
+{{ site.description }}
+
+**Auteur :** {{ site.author }}
+
 <head>
   <link rel="stylesheet" href="barre.css"> 
 </head>
