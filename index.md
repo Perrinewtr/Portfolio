@@ -60,7 +60,7 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
 
 <section id="Compétences">
   <h2>Mes compétences</h2>
-  <h4 class="reduced-space">Langage de programmation :</h4>
+  <h4 style="margin-top: 5px;">Langage de programmation :</h4>
   <ul>
     <li>Python</li>
     <li>R</li>
