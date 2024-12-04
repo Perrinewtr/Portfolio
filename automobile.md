@@ -22,7 +22,7 @@ title: "Projet 5 - Méthode d'Analyse de Données : Clustering Hiérarchique sur
   <a href="https://raw.githubusercontent.com/Perrinewtr/Portfolio/main/automobile.pdf" class="button-link">📥 Télécharger le projet</a>
 </div>
 
-<!-- Liens simples pour les projets -->
+
 <div style="display: flex; gap: 10px; justify-content: center;">
   <a href="{{ site.baseurl }}/projet" class="projet-link">Projet 1 |</a>
   <a href="{{ site.baseurl }}/projet2" class="projet-link">Projet 2 |</a>
@@ -31,7 +31,6 @@ title: "Projet 5 - Méthode d'Analyse de Données : Clustering Hiérarchique sur
 </div>
 
 <style>
-  /* Style des boutons */
   .button-link {
       padding: 10px 20px;
       background-color: #68B0AB;
@@ -45,15 +44,15 @@ title: "Projet 5 - Méthode d'Analyse de Données : Clustering Hiérarchique sur
   }
 
   .button-link:hover {
-      background-color: #4a8b83; /* Couleur au survol */
+      background-color: #4a8b83; 
   }
 
-  /* Style des liens simples */
+
   .projet-link {
       color: #68B0AB;
       text-decoration: none;
       font-size: 15px;
-      font-weight: normal; /* Retirer le gras */
+      font-weight: normal; 
   }
 
   .projet-link:hover {
