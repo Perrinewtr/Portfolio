@@ -15,7 +15,7 @@ title: "Projet 5 - Méthode d'Analyse de Données : Clustering Hiérarchique sur
     <strong>Outils :</strong> Tests de corrélation, ACP (Analyse en Composantes Principales), HCPC (Hierarchical Clustering on Principal Component)
 </div><br>
 
-<div style="display: flex; flex-direction: column; gap: 10px;">
+<div style="display: flex; flex-direction: column; gap: 20px;">
     <a href="https://Perrinewtr.github.io/Portfolio/automobile.pdf" target="_blank" class="projet-link">📊 Voir le projet</a>
     <a href="https://raw.githubusercontent.com/Perrinewtr/Portfolio/main/automobile.pdf" class="projet-link">📥 Télécharger le projet</a>
 </div>
