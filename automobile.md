@@ -2,38 +2,22 @@
 layout: default
 title: "Projet 5 - Méthode d'Analyse de Données : Clustering Hiérarchique sur des Automobiles"
 ---
+<div>
+    <strong>Titre :</strong> Méthode d'Analyse de Données : Clustering Hiérarchique sur des Automobiles
+</div>
+<br>
+<div>
+    <strong>Objectif :</strong> Construction de clusters à partir de données d'automobiles, et analyse de leur consommation de carburant et divers aspects de leur conception et performances. En utilisant la méthode HCPC (Hierarchical Clustering on Principal Component), qui combine l'Analyse en Composantes Principales (ACP) et le clustering hiérarchique, nous avons segmenté un jeu de données de 32 modèles de voitures (1973-1974) en fonction de 11 variables. Cela a permis d'identifier des groupes naturels dans les données et de mieux comprendre les relations entre ces variables.
+</div>
+<br>
+<div>
+    <strong>Langages :</strong> R
+</div>
+<br>
+<div>
+    <strong>Outils :</strong> Tests de corrélation, ACP (Analyse en Composantes Principales), HCPC (Hierarchical Clustering on Principal Component)
+</div>
+<br>
 
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projet 5 - Méthode d'Analyse de Données : Clustering Hiérarchique sur des Automobiles</title>
-    <style>
-        a.projet-link {
-            display: inline-block;
-            padding: 8px 20px;
-            background-color: #68B0AB;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-            width: auto; 
-            white-space: nowrap; 
-            font-size: 16px; 
-            text-align: center; 
-        }
-        .section-title {
-            font-weight: bold;
-        }
-    </style>
-</head>
-<body>
-    <div><strong>Titre :</strong> Méthode d'Analyse de Données : Clustering Hiérarchique sur des Automobiles</div> <br>
-    <div><strong>Objectif :</strong> Construction de clusters à partir de données d'automobiles, et analyse de leur consommation de carburant et divers aspects de leur conception et performances...</div><br>
-    <div><strong>Langages :</strong> R</div><br>
-    <div><strong>Outils :</strong> Tests de corrélation, ACP (Analyse en Composantes Principales), HCPC (Hierarchical Clustering on Principal Component)</div>
-    <br>
-    <a href="https://Perrinewtr.github.io/Portfolio/automobile.pdf" target="_blank" class="projet-link">📊 Voir le projet</a>
-    <a href="https://raw.githubusercontent.com/Perrinewtr/Portfolio/main/automobile.pdf" class="projet-link">📥 Télécharger le projet</a>
-</body>
-</html>
+<a href="https://Perrinewtr.github.io/Portfolio/automobile.pdf" target="_blank" class="projet-link">📊 Voir le projet</a>
+<a href="https://raw.githubusercontent.com/Perrinewtr/Portfolio/main/automobile.pdf" class="projet-link">📥 Télécharger le projet</a>
