@@ -48,6 +48,11 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
       Projet 4 : Survie de patients dans une unité de soins intensifs. <br>
       <em> Pour en savoir plus : </em><a href="survie.html">Projet 4</a>
     </li>
+    <br> 
+    <li>
+      Projet 5 : Méthode d'Analyse de Données : Clustering Hiérarchique sur des Automobiles. <br>
+      <em> Pour en savoir plus : </em><a href="automobile.html">Projet 5</a>
+    </li>
   </ul>
 </section>
 
