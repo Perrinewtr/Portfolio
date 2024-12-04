@@ -27,7 +27,7 @@ title: "Projet 5 - Méthode d'Analyse de Données : Clustering Hiérarchique sur
   <a href="{{ site.baseurl }}/projet" class="projet-link">Projet 1 |</a>
   <a href="{{ site.baseurl }}/projet2" class="projet-link">Projet 2 |</a>
   <a href="{{ site.baseurl }}/arthero" class="projet-link">Projet 3 |</a>
-  <a href="{{ site.baseurl }}/survie" class="projet-link">Projet 4 |</a>
+  <a href="{{ site.baseurl }}/survie" class="projet-link">Projet 4 </a>
 </div>
 
 <style>
