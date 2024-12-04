@@ -2,7 +2,6 @@
   <link rel="stylesheet" href="barre.css"> 
   <style>
     section {
-      padding-top: 60px; /* Ajuste cette valeur en fonction de la hauteur de ton en-tête */
       scroll-margin-top: 60px; /* Permet de ne pas cacher le titre lors du défilement */
     }
   </style>
