@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Projet 5 - Méthode d'Analyse de Données : Clustering Hiérarchique sur des Automobiles
+title: "Projet 5 - Méthode d'Analyse de Données : Clustering Hiérarchique sur des Automobiles"
 ---
 
 ### Objectif :
