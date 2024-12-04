@@ -76,7 +76,7 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
     <li>Web crawling</li>
   </ul>
   
-  <h3>Base de données et gestion de données :</h3>
+  <h4>Base de données et gestion de données :</h4>
   <ul>
     <li>SQLite</li>
     <li>DataHub</li>
