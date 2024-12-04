@@ -51,8 +51,7 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
     <br> 
     <li>
       Projet 5 : Méthode d'Analyse de Données : Clustering Hiérarchique sur des Automobiles. <br>
-    <em>Pour en savoir plus :</em>
-    <a href="{{ site.baseurl }}/automobile.html">Projet 5</a>
+      <em> Pour en savoir plus : </em><a href="automobile.html">Projet 5</a>
    </li>
 </ul>
 </section>
