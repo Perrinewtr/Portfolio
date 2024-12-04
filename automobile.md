@@ -32,16 +32,19 @@ title: "Projet 5 - Méthode d'Analyse de Données : Clustering Hiérarchique sur
 </div>
 
 <style>
-    .projet-link {
-        color: #68B0AB;
-        text-decoration: none;
-        font-size: 14px;
-        font-weight: normal;
-        padding: 0;
-    }
+  /* Style des boutons */
+  .button-link {
+      padding: 10px 20px;
+      background-color: #68B0AB;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+  }
 
-    .projet-link:hover {
-        text-decoration: underline;
-        color: #4a8b83;
-    }
+  .button-link:hover {
+      background-color: #4a8b83; /* Couleur au survol */
+  }
 </style>
