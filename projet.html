@@ -10,56 +10,57 @@ title: Projet 1 - Prédiction des maladies hépatiques
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projet 1 - Prédiction des maladies hépatiques</title>
     <style>
-
-        a.projet-link {
+        
+        .button-link {
             display: inline-block;
-            padding: 8px 20px;
+            padding: 10px 20px;
             background-color: #68B0AB;
             color: white;
             text-decoration: none;
             border-radius: 8px;
             font-size: 16px;
-            text-align: center;
-            white-space: nowrap;
+            font-weight: bold;
+            transition: background-color 0.3s;
         }
 
-        .projet-link:hover {
-            background-color: #4a8b83; /* Changement de couleur au survol */
+        .button-link:hover {
+            background-color: #4a8b83; 
+        }
+
+        
+        .simple-link {
+            color: #68B0AB;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        .simple-link:hover {
+            text-decoration: underline;
+            color: #4a8b83;
         }
     </style>
 </head>
 <body>
-    <div><strong>Titre :</strong> Prédiction des maladies hépatiques à partir des taux d'enzymes sanguines</div> <br>
+    
+    <div><strong>Titre :</strong> Prédiction des maladies hépatiques à partir des taux d'enzymes sanguines</div><br>
     <div><strong>Objectif :</strong> Analyser les taux d'enzymes sanguines chez des patients, répartis en deux groupes (sains et malades), pour déterminer les facteurs de risque associés aux problèmes de foie. Identifier les différences significatives dans les taux d'enzymes entre les groupes, en prenant en compte l'âge, le genre et les autres facteurs environnementaux. Enfin, déterminer quelles enzymes pourraient être des indicateurs précoces des problèmes hépatiques et comment ces enzymes interagissent en fonction des caractéristiques des patients, afin de mieux comprendre les causes sous-jacentes des maladies du foie.</div><br>
-    <div><strong>Langages :</strong> R </div> <br>
-    <div><strong>Outils :</strong> Régression linéaire multiple, test de Student, ANOVA, tests non paramétriques </div>
-    <br>
-    <div style="display: flex; gap: 20px; justify-content: center;">
-        <a href="https://Perrinewtr.github.io/Portfolio/rapport_foie.pdf" target="_blank" class="projet-link">📊  Voir le projet</a>
-        <a href="https://raw.githubusercontent.com/Perrinewtr/Portfolio/main/rapport_foie.pdf" class="projet-link">📥  Télécharger le projet</a>
-    </div><br><br>
+    <div><strong>Langages :</strong> R</div><br>
+    <div><strong>Outils :</strong> Régression linéaire multiple, test de Student, ANOVA, tests non paramétriques</div><br>
 
+    
     <div style="display: flex; gap: 20px; justify-content: center;">
-    <a href="{{ site.baseurl }}/projet2" class="projet-link">Projet 2 |</a>
-    <a href="{{ site.baseurl }}/arthero" class="projet-link">Projet 3 |</a>
-    <a href="{{ site.baseurl }}/survie" class="projet-link">Projet 4 |</a>
-    <a href="{{ site.baseurl }}/automobile" class="projet-link">Projet 5 |</a>
+        <a href="https://Perrinewtr.github.io/Portfolio/rapport_foie.pdf" target="_blank" class="button-link">📊 Voir le projet</a>
+        <a href="https://raw.githubusercontent.com/Perrinewtr/Portfolio/main/rapport_foie.pdf" class="button-link">📥 Télécharger le projet</a>
     </div>
 
-<style>
-  /* Style des liens simples */
-  .projet-link {
-      color: #68B0AB;
-      text-decoration: none;
-      font-size: 15px;
-      font-weight: normal; /* Retirer le gras */
-  }
+    <br><br>
 
-  .projet-link:hover {
-      text-decoration: underline;
-      color: #4a8b83;
-  }
-</style>
-
+    
+    <div style="display: flex; gap: 10px; justify-content: center;">
+        <a href="{{ site.baseurl }}/projet2" class="simple-link">Projet 2 |</a>
+        <a href="{{ site.baseurl }}/arthero" class="simple-link">Projet 3 |</a>
+        <a href="{{ site.baseurl }}/survie" class="simple-link">Projet 4 |</a>
+        <a href="{{ site.baseurl }}/automobile" class="simple-link">Projet 5 |</a>
+    </div>
 </body>
 </html>
