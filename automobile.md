@@ -17,13 +17,12 @@ title: "Projet 5 - Méthode d'Analyse de Données : Clustering Hiérarchique sur
   <br><br>
 </div>
 
-<div style="display: flex; gap: 20px; justify-content: center;">
-  <a href="https://Perrinewtr.github.io/Portfolio/automobile.pdf" target="_blank" class="projet-link">📊 Voir le projet</a>
-  <a href="https://raw.githubusercontent.com/Perrinewtr/Portfolio/main/automobile.pdf" class="projet-link">📥 Télécharger le projet</a>
+<div style="display: flex; gap: 20px; justify-content: center; margin-bottom: 20px;">
+  <a href="https://Perrinewtr.github.io/Portfolio/automobile.pdf" target="_blank" class="button-link">📊 Voir le projet</a>
+  <a href="https://raw.githubusercontent.com/Perrinewtr/Portfolio/main/automobile.pdf" class="button-link">📥 Télécharger le projet</a>
 </div>
 
-<br><br>
-
+<!-- Liens simples pour les projets -->
 <div style="display: flex; gap: 10px; justify-content: center;">
   <a href="{{ site.baseurl }}/projet" class="projet-link">Projet 1</a>
   <a href="{{ site.baseurl }}/projet2" class="projet-link">Projet 2</a>
@@ -42,9 +41,23 @@ title: "Projet 5 - Méthode d'Analyse de Données : Clustering Hiérarchique sur
       font-size: 16px;
       font-weight: bold;
       transition: background-color 0.3s;
+      display: inline-block;
   }
 
   .button-link:hover {
       background-color: #4a8b83; /* Couleur au survol */
+  }
+
+  /* Style des liens simples */
+  .projet-link {
+      color: #68B0AB;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: normal; /* Retirer le gras */
+  }
+
+  .projet-link:hover {
+      text-decoration: underline;
+      color: #4a8b83;
   }
 </style>
