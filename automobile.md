@@ -24,10 +24,10 @@ title: "Projet 5 - Méthode d'Analyse de Données : Clustering Hiérarchique sur
 
 <!-- Liens simples pour les projets -->
 <div style="display: flex; gap: 10px; justify-content: center;">
-  <a href="{{ site.baseurl }}/projet" class="projet-link">Projet 1</a>
-  <a href="{{ site.baseurl }}/projet2" class="projet-link">Projet 2</a>
-  <a href="{{ site.baseurl }}/arthero" class="projet-link">Projet 3</a>
-  <a href="{{ site.baseurl }}/survie" class="projet-link">Projet 4</a>
+  <a href="{{ site.baseurl }}/projet" class="projet-link">Projet 1 |</a>
+  <a href="{{ site.baseurl }}/projet2" class="projet-link">Projet |2</a>
+  <a href="{{ site.baseurl }}/arthero" class="projet-link">Projet |3</a>
+  <a href="{{ site.baseurl }}/survie" class="projet-link">Projet |4</a>
 </div>
 
 <style>
@@ -52,7 +52,7 @@ title: "Projet 5 - Méthode d'Analyse de Données : Clustering Hiérarchique sur
   .projet-link {
       color: #68B0AB;
       text-decoration: none;
-      font-size: 14px;
+      font-size: 15px;
       font-weight: normal; /* Retirer le gras */
   }
 
