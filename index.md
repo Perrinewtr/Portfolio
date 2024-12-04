@@ -60,14 +60,14 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
 
 <section id="Compétences">
   <h2>Mes compétences</h2>
-  <h3>Langage de programmation :</h3>
+  <h4>Langage de programmation :</h4>
   <ul>
     <li>Python</li>
     <li>R</li>
     <li>SQL</li>
   </ul>
   
-  <h3>Outil de Data Sciences :</h3>
+  <h4>Outil de Data Sciences :</h4>
   <ul>
     <li>Jupyter, Rstudio, Visual Studio Code, Pycharm</li>
     <li>Outils statistiques</li>
