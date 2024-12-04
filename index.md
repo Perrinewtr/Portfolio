@@ -26,7 +26,7 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
 
 <section id="Projets">
   <h2>Mes projets</h2>
-  <p>Voici les différents projets que j'ai pu réaliser durant mes études.</p>
+  <p>Voici les différents projets que j'ai pu réaliser durant mes études : </p>
 
   <ul>
     <li>
