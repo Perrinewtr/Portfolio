@@ -67,7 +67,7 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
     <li>SQL</li>
   </ul>
   
-  <h4>Outil de Data Sciences :</h4>
+  <h4 style="margin-top: 5px;">Outil de Data Sciences :</h4>
   <ul>
     <li>Jupyter, Rstudio, Visual Studio Code, Pycharm</li>
     <li>Outils statistiques</li>
@@ -76,7 +76,7 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
     <li>Web crawling</li>
   </ul>
   
-  <h4>Base de données et gestion de données :</h4>
+  <h4 style="margin-top: 5px;">Base de données et gestion de données :</h4>
   <ul>
     <li>SQLite</li>
     <li>DataHub</li>
