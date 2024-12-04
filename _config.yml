@@ -3,4 +3,5 @@ description: "Voici mon portfolio de projets de Data Science en Santé <br> <br>
 author : Perrine Warter 
 url :  "https://perrinewtr.github.io/Portfolio/"
 theme: jekyll-theme-cayman
+github: false
 
