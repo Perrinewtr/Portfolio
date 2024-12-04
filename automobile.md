@@ -15,32 +15,33 @@ title: "Projet 5 - Méthode d'Analyse de Données : Clustering Hiérarchique sur
 
   <strong>Outils :</strong> Tests de corrélation, ACP (Analyse en Composantes Principales), HCPC (Hierarchical Clustering on Principal Component)
   <br><br>
-
-  <!-- Boutons pour "Voir" et "Télécharger" -->
-  <div style="display: flex; gap: 20px; justify-content: center;">
-    <a href="https://Perrinewtr.github.io/Portfolio/automobile.pdf" target="_blank" class="projet-link" style="padding: 8px 20px; background-color: #68B0AB; color: white; text-decoration: none; border-radius: 8px; font-size: 16px;">📊 Voir le projet</a>
-    <a href="https://raw.githubusercontent.com/Perrinewtr/Portfolio/main/automobile.pdf" class="projet-link" style="padding: 8px 20px; background-color: #68B0AB; color: white; text-decoration: none; border-radius: 8px; font-size: 16px;">📥 Télécharger le projet</a>
-  </div> <br> <br>
 </div>
 
-    <div style="display: flex; gap: 20px; justify-content: center;">
-        <a href="{{ site.baseurl }}/projet" class="projet-link">Projet 1</a>
-        <a href="{{ site.baseurl }}/projet2" class="projet-link">Projet 2</a>
-        <a href="{{ site.baseurl }}/arthero" class="projet-link">Projet 3</a>
-        <a href="{{ site.baseurl }}/survie" class="projet-link">Projet 4</a>
-    </div>
+<div style="display: flex; gap: 20px; justify-content: center;">
+  <a href="https://Perrinewtr.github.io/Portfolio/automobile.pdf" target="_blank" class="projet-link">📊 Voir le projet</a>
+  <a href="https://raw.githubusercontent.com/Perrinewtr/Portfolio/main/automobile.pdf" class="projet-link">📥 Télécharger le projet</a>
+</div>
+
+<br><br>
+
+<div style="display: flex; gap: 10px; justify-content: center;">
+  <a href="{{ site.baseurl }}/projet" class="projet-link">Projet 1</a>
+  <a href="{{ site.baseurl }}/projet2" class="projet-link">Projet 2</a>
+  <a href="{{ site.baseurl }}/arthero" class="projet-link">Projet 3</a>
+  <a href="{{ site.baseurl }}/survie" class="projet-link">Projet 4</a>
+</div>
 
 <style>
     .projet-link {
         color: #68B0AB;
         text-decoration: none;
-        font-size: 14px; /* Taille de police réduite */
-        font-weight: normal; /* Retirer le gras */
-        padding: 0; /* Retirer les marges internes */
+        font-size: 14px;
+        font-weight: normal;
+        padding: 0;
     }
 
     .projet-link:hover {
         text-decoration: underline;
-        color: #4a8b83; /* Changer la couleur de fond au survol */
+        color: #4a8b83;
     }
 </style>
