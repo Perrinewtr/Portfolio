@@ -1,5 +1,6 @@
 <head>
   <link rel="stylesheet" href="barre.css"> 
+  <link rel="stylesheet" href="custom.css"> 
   <style>
     section {
       scroll-margin-top: 60px; /* Permet de ne pas cacher le titre lors du défilement */
