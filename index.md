@@ -21,7 +21,7 @@
     
 Voici mon portfolio, qui rassemble une sélection des projets que j'ai pu réaliser dans le cadre de mes études et de mes expériences professionnelles.<br> <br>
 
-Voici un aperçu de mon parcours professionnel et mes compétences en Data Science </p> <br> <br>
+Voici un aperçu de mon parcours professionnel et mes compétences en Data Science. </p> <br> <br>
 
 <html lang="fr">
 <head>
@@ -94,7 +94,7 @@ Voici un aperçu de mon parcours professionnel et mes compétences en Data Scien
       font-size: 14px;
       text-align: center;
       color: #333;
-      background-color: #e0f7fa;
+      background-color: #68B0AB;
       padding: 8px;
       border-radius: 12px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -165,6 +165,8 @@ Voici un aperçu de mon parcours professionnel et mes compétences en Data Scien
 
 </body>
 </html>
+
+<br> <br> <br>
 
   <p> Pour un aperçu complet de mes qualifications et expériences professionnelles, n'hésitez pas à consulter mon CV.</p>
 <br><br><br>
