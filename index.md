@@ -138,7 +138,7 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
     <div class="timeline-point point4"></div>
 
     <div class="timeline-event event1 event-above">
-      <strong>2019</strong><br>Obtention du baccalauréat scientifique
+      <strong>2019</strong><br>Baccalauréat scientifique
     </div>
     <div class="timeline-event event2 event-below">
       <strong>2021</strong><br>Licence Sciences de La Vie
