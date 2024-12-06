@@ -23,76 +23,106 @@ Voici mon portfolio, qui rassemble une sélection des projets que j'ai pu réali
 
 Découvrez mon parcours professionnel et mes compétences en Data Science à travers mon CV <br> ci-dessous. </p> <br> <br>
 
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Timeline</title>
-    <style>
-        /* Ton code CSS ici */
-        .timeline-point {
-            position: absolute;
-            top: 50%;
-            transform: translate(-50%, -50%);
-            width: 12px; /* Taille réduite */
-            height: 12px; /* Taille réduite */
-            background-color: #006f8e;
-            border: 3px solid white;
-            border-radius: 50%;
-            box-shadow: 0 0 15px rgba(0, 111, 142, 0.5);
-            transition: all 0.3s ease-in-out;
-            cursor: pointer;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timeline Interactive</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f9;
+    }
 
-        .timeline-point:hover {
-            background-color: #0097b6;
-            transform: scale(1.4); /* Taille du cercle au survol réduite */
-            box-shadow: 0 0 20px rgba(0, 151, 182, 0.7);
-        }
+    .timeline-container {
+      position: relative;
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 0 30px;
+    }
 
-        .point1 { left: 10%; }
-        .point2 { left: 35%; }
-        .point3 { left: 60%; }
-        .point4 { left: 85%; }
+    /* Ligne fine avec flèche à droite */
+    .timeline-line {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: calc(100% - 30px);
+      height: 2px;
+      background-color: #006f8e;
+    }
 
-        .timeline-line {
-            position: absolute;
-            top: 50%;
-            left: 0;
-            width: calc(100% - 30px); /* Prendre toute la largeur, mais avec une marge */
-            height: 3px;
-            background-color: #006f8e;
-            border-radius: 2px;
-            box-shadow: 0 4px 10px rgba(0, 111, 142, 0.5);
-        }
+    .timeline-line::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: 0;
+      width: 0;
+      height: 0;
+      border-left: 10px solid #006f8e;
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      transform: translateY(-50%);
+    }
 
-        .timeline-event {
-            position: absolute;
-            width: 220px;
-            font-size: 14px;
-            text-align: center;
-            color: #333;
-            background-color: #e0f7fa;
-            padding: 12px;
-            border-radius: 8px;
-            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-            opacity: 0;
-            transform: translateY(30px);
-            transition: all 0.5s ease-in-out;
-        }
+    /* Points interactifs */
+    .timeline-point {
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 12px;
+      height: 12px;
+      background-color: #006f8e;
+      border: 3px solid white;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(0, 111, 142, 0.5);
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+    }
 
-        .timeline-event.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
+    .timeline-point:hover {
+      background-color: #0097b6;
+      transform: scale(1.5);
+      box-shadow: 0 0 15px rgba(0, 151, 182, 0.7);
+    }
 
-        .event-above { top: calc(50% - 40px); }
-        .event-below { top: calc(50% + 25px); }
+    /* Événements avec arrière-plan et animations */
+    .timeline-event {
+      position: absolute;
+      width: 180px;
+      font-size: 14px;
+      text-align: center;
+      color: #333;
+      background-color: #e0f7fa;
+      padding: 8px;
+      border-radius: 6px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.4s ease-in-out;
+    }
 
-        .event1 { left: calc(10% - 110px); }
-        .event2 { left: calc(35% - 110px); }
-        .event3 { left: calc(60% - 110px); }
-        .event4 { left: calc(85% - 110px); }
-    </style>
+    .timeline-event.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Positionnement des événements alternés */
+    .event-above { top: calc(50% - 50px); }
+    .event-below { top: calc(50% + 40px); }
+
+    .point1 { left: 10%; }
+    .point2 { left: 35%; }
+    .point3 { left: 60%; }
+    .point4 { left: 85%; }
+
+    .event1 { left: calc(10% - 90px); }
+    .event2 { left: calc(35% - 90px); }
+    .event3 { left: calc(60% - 90px); }
+    .event4 { left: calc(85% - 90px); }
+
+  </style>
 </head>
 <body>
 
@@ -106,22 +136,17 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
     <div class="timeline-point point3"></div>
     <div class="timeline-point point4"></div>
 
-    <!-- Événements -->
     <div class="timeline-event event1 event-above">
-      <h3>2019</h3>
-      <p>Obtention du baccalauréat scientifique</p>
+      <strong>2019</strong><br>Obtention du baccalauréat scientifiques
     </div>
     <div class="timeline-event event2 event-below">
-      <h3>2021</h3>
-      <p>Licence Sciences de La Vie</p>
+      <strong>2021</strong><br>Licence Sciences de La Vie 
     </div>
     <div class="timeline-event event3 event-above">
-      <h3>2023</h3>
-      <p>Stage à l'IPMC au CNRS</p>
+      <strong>2023</strong><br>Stage à l'IPMC au CNRS 
     </div>
     <div class="timeline-event event4 event-below">
-      <h3>2024</h3>
-      <p>Master Data Science en Santé</p>
+      <strong>2024</strong><br>Master Data Science en Santé 
     </div>
   </div>
 
@@ -132,12 +157,13 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
       events.forEach((event, index) => {
         setTimeout(() => {
           event.classList.add("visible");
-        }, index * 600); // Délai entre chaque apparition
+        }, index * 500); // Délai entre chaque apparition
       });
     });
   </script>
 
 </body>
+</html>
 
 <br><br><br>
 <a href="https://raw.githubusercontent.com/Perrinewtr/Portfolio/main/CV%20Perrine_12%3A2024.pdf" download>CV</a>
