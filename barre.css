@@ -1,3 +1,7 @@
+html, body {
+    overflow-x: hidden;
+}
+
 nav {
     position: fixed;  /* Fixe la barre en haut */
     top: 0;
