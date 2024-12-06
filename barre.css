@@ -15,6 +15,11 @@ body {
     padding-top: 70px; /* Ajuste cette valeur en fonction de la hauteur de ta barre de navigation */
 }
 
+main, .hero-container {
+    margin-top: 70px; /* Remplace 70px par la hauteur de ta barre de navigation */
+    padding: 0;
+}
+
 nav ul {
     list-style-type: none; /* Enlève les puces des éléments de la liste */
     padding: 0;
