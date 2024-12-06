@@ -1,41 +1,52 @@
 nav {
-    position: fixed;
-    top: 0;
+    position: sticky; /* Utilise sticky pour garder la barre visible quand on descend */
+    top: 0; /* Positionner la barre en haut */
     left: 0;
     width: 100%;
-    background-color: #68B0AB; /* Couleur de fond de la barre */
+    height: 60px; /* Hauteur explicite de la barre */
+    background-color: #68B0AB;
     z-index: 1000;
-    padding: 10px 0; /* Espacement vertical */
+    padding: 10px 0;
     text-align: center;
-    box-shadow: 0 4px 2px -2px gray; /* Ombre sous la barre */
+    box-shadow: 0 4px 2px -2px gray;
+    margin: 0; /* Evite les marges indésirables */
 }
 
+/* Espacement sous la barre de navigation */
+body {
+    padding-top: 60px; /* Ajuste cela en fonction de la hauteur de la barre */
+}
+
+/* Liste dans la barre de navigation */
 nav ul {
-    list-style-type: none; /* Enlève les puces des éléments de la liste */
+    list-style-type: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Utilise flexbox pour disposer les éléments horizontalement */
-    justify-content: center; /* Centre les éléments dans la barre */
+    display: flex;
+    justify-content: center;
 }
 
+/* Éléments de la liste */
 nav ul li {
-    margin: 0 20px; /* Marge entre les éléments de la liste */
+    margin: 0 20px;
 }
 
+/* Liens dans la barre */
 nav ul li a {
     text-decoration: none;
     color: white;
     font-size: 18px;
-    padding: 10px 20px; /* Espacement autour du texte */
-    border-radius: 8px; /* Coins arrondis */
-    transition: background-color 0.3s; /* Animation pour le changement de couleur au survol */
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
 }
 
+/* Effet de survol des liens */
 nav ul li a:hover {
-    background-color: #4F8A8B; /* Couleur de survol */
+    background-color: #4F8A8B;
 }
 
-/* Effet de défilement fluide */
+/* Défilement fluide */
 html {
     scroll-behavior: smooth;
 }
