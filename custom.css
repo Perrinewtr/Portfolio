@@ -1,10 +1,16 @@
 body {
     margin: 0; /* Supprimer la marge par défaut */
     padding: 0; /* Supprimer le padding */
-    width: 100vw; /* Assurer que le body prend toute la largeur */
+    width: 100%; /* Assurer que le body prend toute la largeur */
 }
 
 .container {
-    width: 100vw; /* S'assurer que le container occupe toute la largeur */
+    width: 100%; /* S'assurer que le container occupe toute la largeur */
     max-width: none; /* Enlever toute limite de largeur */
+}
+
+.title-container {
+    width: 100vw; /* Prend toute la largeur de la fenêtre */
+    margin-left: 0; /* Supprime les marges à gauche */
+    margin-right: 0; /* Supprime les marges à droite */
 }
