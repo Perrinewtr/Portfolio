@@ -14,3 +14,7 @@ body {
     padding: 0;
     width: 100vw; /* Prend toute la largeur de la fenêtre */
 }
+
+main {
+    margin-top: 70px; /* Ajuste cette valeur pour correspondre à la hauteur de la barre de navigation */
+}
