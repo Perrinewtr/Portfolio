@@ -110,8 +110,8 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
     }
 
     /* Positionnement des événements alternés */
-    .event-above { top: calc(50% - 50px); }
-    .event-below { top: calc(50% + 40px); }
+    .event-above { top: calc(50% - 70px); }
+    .event-below { top: calc(50% + 30px); }
 
     .point1 { left: 10%; }
     .point2 { left: 35%; }
