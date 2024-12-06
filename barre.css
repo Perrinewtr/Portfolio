@@ -10,8 +10,9 @@ nav {
     box-shadow: 0 4px 2px -2px gray;
 }
 
-.main-content, body {
-    margin-top: 60px; /* Crée un espace pour que le contenu commence après la barre de navigation */
+body {
+    margin: 0;
+    padding-top: 70px; /* Ajuste cette valeur en fonction de la hauteur de ta barre de navigation */
 }
 
 nav ul {
