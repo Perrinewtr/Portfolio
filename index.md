@@ -1,3 +1,6 @@
+---
+layout: default
+---
 <head>
   <link rel="stylesheet" href="barre.css"> 
   <style>
