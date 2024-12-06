@@ -6,11 +6,6 @@
     }
   </style>
 
-    <!-- Librairie Taucharts -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/taucharts@2/dist/taucharts.min.css">
-</head>
-<body>
-
 <nav>
   <ul>
     <li><a href="#À propos de moi">À propos de moi</a></li>
@@ -27,6 +22,76 @@
 Voici mon portfolio, qui rassemble une sélection des projets que j'ai pu réaliser dans le cadre de mes études et de mes expériences professionnelles.<br> <br>
 
 Découvrez mon parcours professionnel et mes compétences en Data Science à travers mon CV <br> ci-dessous. </p>
+
+<head>
+  <style>
+    /* Styles de base */
+    .timeline {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 800px;
+      margin: 50px auto;
+      position: relative;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background-color: #ddd;
+      z-index: 1;
+    }
+
+    .timeline-point {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .timeline-point span {
+      width: 20px;
+      height: 20px;
+      background-color: #4CAF50;
+      border-radius: 50%;
+      display: block;
+      border: 3px solid white;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .timeline-point p {
+      margin-top: 10px;
+      text-align: center;
+      font-size: 14px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="timeline">
+    <div class="timeline-point">
+      <span></span>
+      <p><strong>2020</strong><br>Début du Master</p>
+    </div>
+    <div class="timeline-point">
+      <span></span>
+      <p><strong>2021</strong><br>Premier stage</p>
+    </div>
+    <div class="timeline-point">
+      <span></span>
+      <p><strong>2023</strong><br>Projet d'études<br>en IA</p>
+    </div>
+    <div class="timeline-point">
+      <span></span>
+      <p><strong>2024</strong><br>Portfolio interactif</p>
+    </div>
+  </div>
+</body>
 
 <a href="https://raw.githubusercontent.com/Perrinewtr/Portfolio/main/CV%20Perrine_12%3A2024.pdf" download>CV</a>
 </section>
@@ -103,21 +168,3 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
     LinkedIn 🔗 : <a href="https://www.linkedin.com/in/perrine-warter-140a3026a" target="_blank">Perrine Warter</a> </p>
 </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/taucharts@2/dist/taucharts.min.js"></script>
-  <script>
-    var chart = new Taucharts.Chart({
-      type: 'line',
-      data: [
-        { date: '2020-01-01', milestone: 'Début du master' },
-        { date: '2021-06-01', milestone: 'Premier stage en data science' },
-        { date: '2024-12-01', milestone: 'Projet de portfolio' }
-      ],
-      x: 'date',
-      y: 'milestone',
-      plugins: [Taucharts.api.plugins.get('tooltip')], // Info au survol
-    });
-    chart.renderTo('#timeline');
-  </script>
-  
-</body>
-</html>
