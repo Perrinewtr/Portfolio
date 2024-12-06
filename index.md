@@ -108,7 +108,7 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
     }
 
     /* Positionnement des événements alternés */
-    .event-above { top: calc(50% - 70px); }
+    .event-above { top: calc(50% - 50px); }
     .event-below { top: calc(50% + 40px); }
 
     .point1 { left: 10%; }
@@ -137,16 +137,16 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
 
     <!-- Événements -->
     <div class="timeline-event event1 event-above">
-      <strong>2020</strong><br>Début du Master
+      <strong>2019</strong><br>Obtention du baccalauréat scientifiques
     </div>
     <div class="timeline-event event2 event-below">
-      <strong>2021</strong><br>Premier stage
+      <strong>2021</strong><br>Licence Sciences de La Vie 
     </div>
     <div class="timeline-event event3 event-above">
-      <strong>2023</strong><br>Projet IA
+      <strong>2023</strong><br>Stage à l'IPMC au CNRS 
     </div>
     <div class="timeline-event event4 event-below">
-      <strong>2024</strong><br>Portfolio interactif
+      <strong>2024</strong><br>Master Data Science en Santé 
     </div>
   </div>
 
