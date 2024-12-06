@@ -19,6 +19,13 @@ nav ul {
     justify-content: center;  /* Centre les éléments */
 }
 
+.hero {
+    width: 100vw !important; /* Forcer la largeur à 100% de la fenêtre */
+    margin: 0 !important;     /* Supprimer les marges */
+    padding: 0 !important;    /* Supprimer les paddings internes */
+    background-color: #68B0AB; /* Ta couleur */
+}
+
 /* Éléments de la liste */
 nav ul li {
     margin: 0 20px;  /* Marge entre les éléments */
