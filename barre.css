@@ -53,7 +53,17 @@ html {
     scroll-behavior: smooth;
 }
 
+.main-content {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px; /* Définir une largeur maximale pour ne pas avoir d'espace blanc sur des écrans larges */
+}
+
 /* Ajustement pour compenser la barre de navigation */
 body {
     padding-top: 60px; /* Ajoute un padding pour éviter que la barre de navigation ne recouvre le contenu */
+}
+section {
+  padding: 20px;
+  margin-bottom: 40px;
 }
