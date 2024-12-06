@@ -24,10 +24,12 @@ Voici mon portfolio, qui rassemble une sélection des projets que j'ai pu réali
 Découvrez mon parcours professionnel et mes compétences en Data Science à travers mon CV <br> ci-dessous. </p> <br> <br>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Timeline Interactive</title>
+  <link rel="stylesheet" href="barre.css"> 
   <style>
+    section {
+      scroll-margin-top: 60px; /* Permet de ne pas cacher le titre lors du défilement */
+    }
+
     body {
       font-family: 'Arial', sans-serif;
       margin: 0;
@@ -108,6 +110,7 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
       opacity: 0;
       transform: translateY(30px);
       transition: all 0.5s ease-in-out;
+      margin-top: 20px; /* Ajouté pour espacer les événements */
     }
 
     .timeline-event.visible {
@@ -153,19 +156,19 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
     <!-- Événements -->
     <div class="timeline-event event1 event-above">
       <h3>2019</h3>
-      <p>Obtention du baccalauréat scientifiques</p>
+      <p>Obtention du baccalauréat scientifique</p>
     </div>
     <div class="timeline-event event2 event-below">
       <h3>2021</h3>
-      <p>Licence Sciences de La Viee</p>
+      <p>Licence Sciences de La Vie</p>
     </div>
     <div class="timeline-event event3 event-above">
       <h3>2023</h3>
-      <p>Stage à l'IPMC au CNRS /p>
+      <p>Stage à l'IPMC au CNRS</p>
     </div>
     <div class="timeline-event event4 event-below">
       <h3>2024</h3>
-      <p>Master Data Science en Santé </p>
+      <p>Master Data Science en Santé</p>
     </div>
   </div>
 
