@@ -1,3 +1,7 @@
+body {
+    margin: 0; /* Enlève les marges par défaut */
+    padding: 0; /* Enlève les paddings par défaut */
+}
 nav {
     position: fixed;
     top: 0;
