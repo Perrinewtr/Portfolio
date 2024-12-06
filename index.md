@@ -111,7 +111,7 @@ Voici un aperçu de mon parcours professionnel et mes compétences en Data Scien
 
     /* Positionnement des événements alternés */
     .event-above { top: calc(50% - 90px); }
-    .event-below { top: calc(50% + 10px); }
+    .event-below { top: calc(50% + 30px); }
 
     .point1 { left: 10%; }
     .point2 { left: 35%; }
