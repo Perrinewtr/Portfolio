@@ -1,16 +1,15 @@
 nav {
     position: fixed;
     top: 0;
-    left: 50%;
-    transform: translateX(-50%); /* Centrer la barre de navigation */
-    width: 100%;
-    max-width: 960px; /* S'assure que la barre de navigation ne dépasse pas la largeur de ton contenu */
+    left: 0;
+    width: 100%; /* Prend toute la largeur de l'écran */
     background-color: #68B0AB;
     z-index: 1000;
     padding: 10px 0;
     text-align: center;
     box-shadow: 0 4px 2px -2px gray;
 }
+
 nav ul {
     list-style-type: none; /* Enlève les puces des éléments de la liste */
     padding: 0;
