@@ -25,14 +25,17 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
 
 <head>
   <style>
-    /* Styles de base */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
     .timeline {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      position: relative;
       max-width: 800px;
       margin: 50px auto;
-      position: relative;
     }
 
     .timeline::before {
@@ -41,54 +44,63 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
       top: 50%;
       left: 0;
       right: 0;
-      height: 4px;
-      background-color: #ddd;
-      z-index: 1;
+      height: 2px;
+      background-color: #bbb;
     }
 
     .timeline-point {
-      position: relative;
-      z-index: 2;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .timeline-point span {
-      width: 20px;
-      height: 20px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 12px;
+      height: 12px;
       background-color: #4CAF50;
       border-radius: 50%;
-      display: block;
-      border: 3px solid white;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      border: 2px solid white;
+      box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
     }
 
-    .timeline-point p {
-      margin-top: 10px;
+    .timeline-event {
+      position: absolute;
       text-align: center;
       font-size: 14px;
       color: #333;
+      width: 150px;
     }
+
+    /* Positions des points */
+    .point1 { left: 10%; }
+    .point2 { left: 35%; }
+    .point3 { left: 60%; }
+    .point4 { left: 85%; }
+
+    /* Positions des événements (au-dessus/en-dessous de la ligne) */
+    .event1 { left: calc(10% - 75px); top: calc(50% - 60px); } /* Au-dessus */
+    .event2 { left: calc(35% - 75px); top: calc(50% + 20px); } /* En-dessous */
+    .event3 { left: calc(60% - 75px); top: calc(50% - 60px); } /* Au-dessus */
+    .event4 { left: calc(85% - 75px); top: calc(50% + 20px); } /* En-dessous */
   </style>
 </head>
 <body>
   <div class="timeline">
-    <div class="timeline-point">
-      <span></span>
-      <p><strong>2020</strong><br>Début du Master</p>
+    <!-- Points de la timeline -->
+    <div class="timeline-point point1"></div>
+    <div class="timeline-point point2"></div>
+    <div class="timeline-point point3"></div>
+    <div class="timeline-point point4"></div>
+
+    <!-- Événements -->
+    <div class="timeline-event event1">
+      <strong>2020</strong><br>Début du Master
     </div>
-    <div class="timeline-point">
-      <span></span>
-      <p><strong>2021</strong><br>Premier stage</p>
+    <div class="timeline-event event2">
+      <strong>2021</strong><br>Premier stage
     </div>
-    <div class="timeline-point">
-      <span></span>
-      <p><strong>2023</strong><br>Projet d'études<br>en IA</p>
+    <div class="timeline-event event3">
+      <strong>2023</strong><br>Projet IA
     </div>
-    <div class="timeline-point">
-      <span></span>
-      <p><strong>2024</strong><br>Portfolio interactif</p>
+    <div class="timeline-event event4">
+      <strong>2024</strong><br>Portfolio
     </div>
   </div>
 </body>
