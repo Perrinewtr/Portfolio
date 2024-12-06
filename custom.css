@@ -5,6 +5,6 @@ body {
 }
 
 .container {
-    width: 100%; /* S'assurer que le container occupe toute la largeur */
+    width: 100vw; /* S'assurer que le container occupe toute la largeur */
     max-width: none; /* Enlever toute limite de largeur */
 }
