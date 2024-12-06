@@ -22,6 +22,28 @@
     
 Voici mon portfolio, qui rassemble une sélection des projets que j'ai pu réaliser dans le cadre de mes études et de mes expériences professionnelles.<br> <br>
 
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/taucharts@2/dist/taucharts.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/taucharts@2/dist/taucharts.min.js"></script>
+</head>
+<body>
+  <div id="timeline"></div>
+  <script>
+    var chart = new Taucharts.Chart({
+      type: 'line',
+      data: [
+        { date: '2020-01-01', milestone: 'Début du master' },
+        { date: '2021-06-01', milestone: 'Premier stage en data science' },
+        { date: '2024-12-01', milestone: 'Projet de portfolio' }
+      ],
+      x: 'date',
+      y: 'milestone',
+      plugins: [Taucharts.api.plugins.get('tooltip')], // Info au survol
+    });
+    chart.renderTo('#timeline');
+  </script>
+</body>
+
 Découvrez mon parcours professionnel et mes compétences en Data Science à travers mon CV <br> ci-dessous. </p>
 
 <a href="https://raw.githubusercontent.com/Perrinewtr/Portfolio/main/CV%20Perrine_12%3A2024.pdf" download>CV</a>
