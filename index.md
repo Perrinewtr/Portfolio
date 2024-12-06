@@ -151,6 +151,10 @@ Voici un aperçu de mon parcours professionnel et mes compétences en Data Scien
     </div>
   </div>
 
+  .date {
+  text-decoration: underline; /* Souligne la date */
+}
+
   <script>
     // Animation d'apparition des événements avec un délai
     document.addEventListener("DOMContentLoaded", function() {
