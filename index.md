@@ -5,7 +5,11 @@
       scroll-margin-top: 60px; /* Permet de ne pas cacher le titre lors du défilement */
     }
   </style>
+
+    <!-- Librairie Taucharts -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/taucharts@2/dist/taucharts.min.css">
 </head>
+<body>
 
 <nav>
   <ul>
@@ -21,89 +25,6 @@
   <p> Actuellement étudiante en master 1 de Data Sciences en Santé à Ilis, je me spécialise dans l'analyse de données appliquée aux domaines de la santé et de la biologie. <br> <br>
     
 Voici mon portfolio, qui rassemble une sélection des projets que j'ai pu réaliser dans le cadre de mes études et de mes expériences professionnelles.<br> <br>
-
-<head>
-  <style>
-    /* Styles de base */
-    .timeline {
-      position: relative;
-      max-width: 800px;
-      margin: auto;
-    }
-
-    .timeline::after {
-      content: '';
-      position: absolute;
-      width: 6px;
-      background-color: #ddd;
-      top: 0;
-      bottom: 0;
-      left: 50%;
-      margin-left: -3px;
-    }
-
-    .container {
-      padding: 10px 40px;
-      position: relative;
-      background-color: inherit;
-      width: 50%;
-    }
-
-    .container.left {
-      left: 0;
-    }
-
-    .container.right {
-      left: 50%;
-    }
-
-    .content {
-      padding: 20px;
-      background-color: white;
-      position: relative;
-      border-radius: 6px;
-    }
-
-    .container::after {
-      content: '';
-      position: absolute;
-      width: 25px;
-      height: 25px;
-      right: -12px;
-      background-color: white;
-      border: 4px solid #ccc;
-      top: 15px;
-      border-radius: 50%;
-      z-index: 1;
-    }
-
-    .container.right::after {
-      left: -12px;
-    }
-  </style>
-</head>
-<body>
-  <div class="timeline">
-    <div class="container left">
-      <div class="content">
-        <h2>2020</h2>
-        <p>Début de mon master en Data Science.</p>
-      </div>
-    </div>
-    <div class="container right">
-      <div class="content">
-        <h2>2021</h2>
-        <p>Stage en data science appliquée à la santé.</p>
-      </div>
-    </div>
-    <div class="container left">
-      <div class="content">
-        <h2>2024</h2>
-        <p>Développement d'un portfolio interactif.</p>
-      </div>
-    </div>
-  </div>
-</body>
 
 Découvrez mon parcours professionnel et mes compétences en Data Science à travers mon CV <br> ci-dessous. </p>
 
@@ -181,3 +102,22 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
     Email 📧 : <a href="mailto:warter.perrine@orange.fr">warter.perrine@orange.fr</a> <br>
     LinkedIn 🔗 : <a href="https://www.linkedin.com/in/perrine-warter-140a3026a" target="_blank">Perrine Warter</a> </p>
 </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/taucharts@2/dist/taucharts.min.js"></script>
+  <script>
+    var chart = new Taucharts.Chart({
+      type: 'line',
+      data: [
+        { date: '2020-01-01', milestone: 'Début du master' },
+        { date: '2021-06-01', milestone: 'Premier stage en data science' },
+        { date: '2024-12-01', milestone: 'Projet de portfolio' }
+      ],
+      x: 'date',
+      y: 'milestone',
+      plugins: [Taucharts.api.plugins.get('tooltip')], // Info au survol
+    });
+    chart.renderTo('#timeline');
+  </script>
+  
+</body>
+</html>
