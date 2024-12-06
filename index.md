@@ -12,6 +12,10 @@
     h4 {
       color: #68B0AB !important; /* Ajoutez !important pour forcer l'application du style */
     }
+    
+    main {
+      margin-top: 70px; /* Ajuste cette valeur pour correspondre à la hauteur de la barre de navigation */
+      }
 
   </style>
 
