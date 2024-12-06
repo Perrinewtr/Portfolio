@@ -39,6 +39,7 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
       position: relative;
       max-width: 900px;
       margin: 50px auto;
+      padding: 0 30px;
     }
 
     /* Ligne fine avec flèche à droite */
@@ -46,12 +47,11 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
       position: absolute;
       top: 50%;
       left: 0;
-      width: calc(100% - 30px); /* La ligne est un peu plus courte pour laisser place à la flèche */
+      width: calc(100% - 30px);
       height: 2px;
-      background-color: #006f8e; /* Couleur inspirée du jekyll-theme-cayman */
+      background-color: #006f8e;
     }
 
-    /* Flèche à la fin de la ligne */
     .timeline-line::after {
       content: '';
       position: absolute;
@@ -65,13 +65,13 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
       transform: translateY(-50%);
     }
 
-    /* Points simples */
+    /* Points interactifs */
     .timeline-point {
       position: absolute;
       top: 50%;
       transform: translate(-50%, -50%);
-      width: 12px;
-      height: 12px;
+      width: 14px;
+      height: 14px;
       background-color: #006f8e;
       border: 3px solid white;
       border-radius: 50%;
@@ -86,15 +86,28 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
       box-shadow: 0 0 15px rgba(0, 151, 182, 0.7);
     }
 
-    /* Événements alternés */
+    /* Événements avec arrière-plan et animations */
     .timeline-event {
       position: absolute;
-      width: 200px;
+      width: 220px;
       font-size: 14px;
       text-align: center;
       color: #333;
+      background-color: #e0f7fa;
+      padding: 10px;
+      border-radius: 6px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.4s ease-in-out;
     }
 
+    .timeline-event.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Positionnement des événements alternés */
     .event-above { top: calc(50% - 80px); }
     .event-below { top: calc(50% + 40px); }
 
@@ -103,19 +116,20 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
     .point3 { left: 60%; }
     .point4 { left: 85%; }
 
-    .event1 { left: calc(10% - 100px); }
-    .event2 { left: calc(35% - 100px); }
-    .event3 { left: calc(60% - 100px); }
-    .event4 { left: calc(85% - 100px); }
+    .event1 { left: calc(10% - 110px); }
+    .event2 { left: calc(35% - 110px); }
+    .event3 { left: calc(60% - 110px); }
+    .event4 { left: calc(85% - 110px); }
+
   </style>
 </head>
 <body>
 
   <div class="timeline-container">
-    <!-- Ligne fine avec flèche -->
+    <!-- Ligne avec flèche -->
     <div class="timeline-line"></div>
 
-    <!-- Points interactifs -->
+    <!-- Points -->
     <div class="timeline-point point1"></div>
     <div class="timeline-point point2"></div>
     <div class="timeline-point point3"></div>
@@ -134,7 +148,19 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
     <div class="timeline-event event4 event-below">
       <strong>2024</strong><br>Portfolio interactif
     </div>
-  </div>
+    </div>
+
+  <script>
+    // Animation d'apparition des événements avec un délai
+    document.addEventListener("DOMContentLoaded", function() {
+      const events = document.querySelectorAll(".timeline-event");
+      events.forEach((event, index) => {
+        setTimeout(() => {
+          event.classList.add("visible");
+        }, index * 500); // Délai entre chaque apparition
+      });
+    });
+  </script>
 
 </body>
 
