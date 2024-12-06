@@ -21,97 +21,109 @@
     
 Voici mon portfolio, qui rassemble une sélection des projets que j'ai pu réaliser dans le cadre de mes études et de mes expériences professionnelles.<br> <br>
 
-Découvrez mon parcours professionnel et mes compétences en Data Science à travers mon CV <br> ci-dessous. </p> <br> <br>
+Découvrez mon parcours professionnel et mes compétences en Data Science à travers mon CV <br> ci-dessous. </p> <br> 
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timeline Interactive</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Arial', sans-serif;
       margin: 0;
       padding: 20px;
-      background-color: #f9f9f9;
+      background-color: #f4f4f9;
     }
 
-    .timeline {
+    .timeline-container {
       position: relative;
-      max-width: 800px;
+      max-width: 900px;
       margin: 50px auto;
     }
 
-    .timeline::before {
-      content: '';
+    .timeline-line {
       position: absolute;
       top: 50%;
       left: 0;
-      right: 0;
-      height: 2px;
-      background-color: #bbb;
+      width: 100%;
+      height: 3px;
+      background: linear-gradient(to right, #6c63ff, #a78bfa);
     }
 
     .timeline-point {
       position: absolute;
       top: 50%;
-      transform: translateY(-50%);
-      width: 12px;
-      height: 12px;
-      background-color: #4CAF50;
+      transform: translate(-50%, -50%);
+      width: 20px;
+      height: 20px;
+      background-color: #6c63ff;
+      border: 3px solid white;
       border-radius: 50%;
-      border: 2px solid white;
-      box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-      transition: background-color 0.3s ease, transform 0.3s ease;
+      box-shadow: 0 0 10px rgba(108, 99, 255, 0.5);
+      transition: all 0.3s ease-in-out;
       cursor: pointer;
     }
 
     .timeline-point:hover {
-      background-color: #81C784; /* Couleur plus claire au survol */
-      transform: scale(1.2); /* Agrandissement léger */
+      background-color: #a78bfa;
+      transform: scale(1.3);
+      box-shadow: 0 0 15px rgba(167, 139, 250, 0.7);
     }
 
     .timeline-event {
       position: absolute;
-      text-align: center;
+      width: 200px;
       font-size: 14px;
+      text-align: center;
       color: #333;
-      width: 150px;
     }
 
-    /* Positions des points */
+    .event-above { top: calc(50% - 80px); } /* Au-dessus de la ligne */
+    .event-below { top: calc(50% + 40px); } /* En-dessous de la ligne */
+
+    /* Positionnement des points */
     .point1 { left: 10%; }
     .point2 { left: 35%; }
     .point3 { left: 60%; }
     .point4 { left: 85%; }
 
-    /* Positions des événements (au-dessus/en-dessous de la ligne) */
-    .event1 { left: calc(10% - 75px); top: calc(50% - 60px); } /* Au-dessus */
-    .event2 { left: calc(35% - 75px); top: calc(50% + 20px); } /* En-dessous */
-    .event3 { left: calc(60% - 75px); top: calc(50% - 60px); } /* Au-dessus */
-    .event4 { left: calc(85% - 75px); top: calc(50% + 20px); } /* En-dessous */
+    /* Positionnement des événements */
+    .event1 { left: calc(10% - 100px); }
+    .event2 { left: calc(35% - 100px); }
+    .event3 { left: calc(60% - 100px); }
+    .event4 { left: calc(85% - 100px); }
   </style>
 </head>
 <body>
-  <div class="timeline">
-    <!-- Points de la timeline -->
+
+  <div class="timeline-container">
+    <!-- Ligne centrale -->
+    <div class="timeline-line"></div>
+
+    <!-- Points interactifs -->
     <div class="timeline-point point1"></div>
     <div class="timeline-point point2"></div>
     <div class="timeline-point point3"></div>
     <div class="timeline-point point4"></div>
 
     <!-- Événements -->
-    <div class="timeline-event event1">
+    <div class="timeline-event event1 event-above">
       <strong>2020</strong><br>Début du Master
     </div>
-    <div class="timeline-event event2">
+    <div class="timeline-event event2 event-below">
       <strong>2021</strong><br>Premier stage
     </div>
-    <div class="timeline-event event3">
+    <div class="timeline-event event3 event-above">
       <strong>2023</strong><br>Projet IA
     </div>
-    <div class="timeline-event event4">
-      <strong>2024</strong><br>Portfolio
+    <div class="timeline-event event4 event-below">
+      <strong>2024</strong><br>Portfolio interactif
     </div>
   </div>
+
 </body>
-<br>
+
+<br><br>
 <a href="https://raw.githubusercontent.com/Perrinewtr/Portfolio/main/CV%20Perrine_12%3A2024.pdf" download>CV</a>
 </section>
 
