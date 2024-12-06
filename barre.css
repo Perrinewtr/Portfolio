@@ -4,6 +4,13 @@
   box-sizing: border-box; /* Inclure padding et border dans la taille totale de l'élément */
 }
 
+body {
+  font-family: 'Arial', sans-serif;
+  padding-top: 60px; /* Compense la hauteur de la barre de navigation fixe */
+  background-color: #f4f4f9;
+  margin: 0;
+}
+
 nav {
     position: fixed;
     top: 0;
