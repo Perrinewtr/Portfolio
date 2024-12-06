@@ -10,6 +10,12 @@ nav {
     box-shadow: 0 4px 2px -2px gray;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 60px; /* Crée de l'espace pour le contenu sous la barre de navigation */
+}
+
 nav ul {
     list-style-type: none; /* Enlève les puces des éléments de la liste */
     padding: 0;
