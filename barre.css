@@ -26,6 +26,11 @@ nav ul {
     background-color: #68B0AB; /* Ta couleur */
 }
 
+.container {
+    width: 100% !important;
+    max-width: none !important; /* Supprimer toute limitation de largeur */
+}
+
 /* Éléments de la liste */
 nav ul li {
     margin: 0 20px;  /* Marge entre les éléments */
