@@ -41,54 +41,49 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
       margin: 50px auto;
     }
 
-    /* Ligne fine et flèches */
+    /* Ligne fine avec flèche à droite */
     .timeline-line {
       position: absolute;
       top: 50%;
       left: 0;
-      width: 100%;
+      width: calc(100% - 30px); /* La ligne est un peu plus courte pour laisser place à la flèche */
       height: 2px;
-      background-color: #6c63ff;
+      background-color: #006f8e; /* Couleur inspirée du jekyll-theme-cayman */
     }
 
+    /* Flèche à la fin de la ligne */
+    .timeline-line::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: 0;
+      width: 0;
+      height: 0;
+      border-left: 10px solid #006f8e;
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      transform: translateY(-50%);
+    }
+
+    /* Points simples */
     .timeline-point {
       position: absolute;
       top: 50%;
       transform: translate(-50%, -50%);
       width: 12px;
       height: 12px;
-      background-color: #6c63ff;
+      background-color: #006f8e;
       border: 3px solid white;
       border-radius: 50%;
-      box-shadow: 0 0 10px rgba(108, 99, 255, 0.5);
+      box-shadow: 0 0 10px rgba(0, 111, 142, 0.5);
       transition: all 0.3s ease-in-out;
       cursor: pointer;
     }
 
     .timeline-point:hover {
-      background-color: #a78bfa;
+      background-color: #0097b6;
       transform: scale(1.5);
-      box-shadow: 0 0 15px rgba(167, 139, 250, 0.7);
-    }
-
-    /* Flèches aux points */
-    .timeline-point::after {
-      content: '';
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 0;
-      height: 0;
-      border-left: 6px solid transparent;
-      border-right: 6px solid transparent;
-      border-top: 12px solid #6c63ff;
-      transform: translate(-50%, 0);
-      opacity: 0;
-      transition: opacity 0.3s ease-in-out;
-    }
-
-    .timeline-point:hover::after {
-      opacity: 1;
+      box-shadow: 0 0 15px rgba(0, 151, 182, 0.7);
     }
 
     /* Événements alternés */
@@ -117,7 +112,7 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
 <body>
 
   <div class="timeline-container">
-    <!-- Ligne fine -->
+    <!-- Ligne fine avec flèche -->
     <div class="timeline-line"></div>
 
     <!-- Points interactifs -->
@@ -128,16 +123,16 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
 
     <!-- Événements -->
     <div class="timeline-event event1 event-above">
-      <strong>2019</strong><br>Obtention du baccalauréat scientifique
+      <strong>2020</strong><br>Début du Master
     </div>
     <div class="timeline-event event2 event-below">
-      <strong>2021</strong><br>Licence Sciences de La Vie 
+      <strong>2021</strong><br>Premier stage
     </div>
     <div class="timeline-event event3 event-above">
-      <strong>2023</strong><br>Stage à l'IPMC au CNRS
+      <strong>2023</strong><br>Projet IA
     </div>
     <div class="timeline-event event4 event-below">
-      <strong>2024</strong><br>Master Data Science en Santé 
+      <strong>2024</strong><br>Portfolio interactif
     </div>
   </div>
 
