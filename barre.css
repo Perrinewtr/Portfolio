@@ -2,18 +2,19 @@ body {
     margin: 0; /* Enlève les marges par défaut */
     padding: 0; /* Enlève les paddings par défaut */
 }
+
 nav {
     position: fixed;
     top: 0;
-    left: 0 ;
-    width: 100% ;
+    left: 0; /* Pas besoin de !important si tu as bien réinitialisé les marges du body */
+    width: 100%; /* Prend toute la largeur de la page */
     background-color: #68B0AB; /* Couleur de fond de la barre */
     z-index: 1000;
     padding: 10px 0; /* Espacement vertical */
     text-align: center;
     box-shadow: 0 4px 2px -2px gray; /* Ombre sous la barre */
-  }
-  
+}
+
 nav ul {
     list-style-type: none; /* Enlève les puces des éléments de la liste */
     padding: 0;
@@ -21,11 +22,11 @@ nav ul {
     display: flex; /* Utilise flexbox pour disposer les éléments horizontalement */
     justify-content: center; /* Centre les éléments dans la barre */
 }
-  
+
 nav ul li {
     margin: 0 20px; /* Marge entre les éléments de la liste */
 }
-  
+
 nav ul li a {
     text-decoration: none;
     color: white;
@@ -34,12 +35,11 @@ nav ul li a {
     border-radius: 8px; /* Coins arrondis */
     transition: background-color 0.3s; /* Animation pour le changement de couleur au survol */
 }
-  
+
 nav ul li a:hover {
     background-color: #4F8A8B; /* Couleur de survol */
 }
-  
-  /* Effet de défilement fluide */
+
 html {
     scroll-behavior: smooth;
 }
