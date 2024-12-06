@@ -70,8 +70,8 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
       position: absolute;
       top: 50%;
       transform: translate(-50%, -50%);
-      width: 14px;
-      height: 14px;
+      width: 12px;
+      height: 12px;
       background-color: #006f8e;
       border: 3px solid white;
       border-radius: 50%;
@@ -89,12 +89,12 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
     /* Événements avec arrière-plan et animations */
     .timeline-event {
       position: absolute;
-      width: 220px;
+      width: 180px;
       font-size: 14px;
       text-align: center;
       color: #333;
       background-color: #e0f7fa;
-      padding: 10px;
+      padding: 8px;
       border-radius: 6px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       opacity: 0;
@@ -108,7 +108,7 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
     }
 
     /* Positionnement des événements alternés */
-    .event-above { top: calc(50% - 80px); }
+    .event-above { top: calc(50% - 70px); }
     .event-below { top: calc(50% + 40px); }
 
     .point1 { left: 10%; }
@@ -116,10 +116,10 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
     .point3 { left: 60%; }
     .point4 { left: 85%; }
 
-    .event1 { left: calc(10% - 110px); }
-    .event2 { left: calc(35% - 110px); }
-    .event3 { left: calc(60% - 110px); }
-    .event4 { left: calc(85% - 110px); }
+    .event1 { left: calc(10% - 90px); }
+    .event2 { left: calc(35% - 90px); }
+    .event3 { left: calc(60% - 90px); }
+    .event4 { left: calc(85% - 90px); }
 
   </style>
 </head>
@@ -148,7 +148,7 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
     <div class="timeline-event event4 event-below">
       <strong>2024</strong><br>Portfolio interactif
     </div>
-    </div>
+  </div>
 
   <script>
     // Animation d'apparition des événements avec un délai
