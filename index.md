@@ -176,7 +176,7 @@ Voici un aperçu de mon parcours professionnel et mes compétences en Data Scien
 
 <a href="https://raw.githubusercontent.com/Perrinewtr/Portfolio/main/CV%20Perrine_12%3A2024.pdf" download>CV</a>
 </section>
-
+ <br>
 <section id="Projets">
   <h2>Mes projets</h2>
   <p>Voici les différents projets que j'ai pu réaliser durant mes études : </p>
@@ -209,7 +209,7 @@ Voici un aperçu de mon parcours professionnel et mes compétences en Data Scien
 </ul>
 </section>
 
-
+ <br>
 <section id="Compétences">
   <h2>Mes compétences</h2>
   <h4 style="margin-top: 5px;">Langage de programmation :</h4>
@@ -237,7 +237,7 @@ Voici un aperçu de mon parcours professionnel et mes compétences en Data Scien
   </ul>
 </section>
 
-
+ <br>
 <section id="Contact">
   <h2>Contact</h2>
   <p> Téléphone 📞 : 0781640860 <br>
