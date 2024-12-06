@@ -4,9 +4,7 @@
     section {
       scroll-margin-top: 60px; /* Permet de ne pas cacher le titre lors du défilement */
     }
-    h2 {
-      color: #68B0AB; /* Change la couleur des titres h2 */
-    }
+
   </style>
 
 <nav>
