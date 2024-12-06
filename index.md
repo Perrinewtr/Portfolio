@@ -1,6 +1,5 @@
 <head>
   <link rel="stylesheet" href="barre.css"> 
-  <link rel="stylesheet" href="custom.css">
   <style>
     section {
       scroll-margin-top: 60px; /* Permet de ne pas cacher le titre lors du défilement */
@@ -13,10 +12,6 @@
       color: #68B0AB !important; /* Ajoutez !important pour forcer l'application du style */
     }
     
-    main {
-      margin-top: 70px; /* Ajuste cette valeur pour correspondre à la hauteur de la barre de navigation */
-      }
-
   </style>
 
 <nav>
