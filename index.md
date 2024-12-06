@@ -123,6 +123,10 @@ Voici un aperçu de mon parcours professionnel et mes compétences en Data Scien
     .event3 { left: calc(60% - 90px); }
     .event4 { left: calc(85% - 90px); }
 
+    .date {
+      text-decoration: underline;
+    }
+
   </style>
 </head>
 <body>
@@ -150,10 +154,6 @@ Voici un aperçu de mon parcours professionnel et mes compétences en Data Scien
       <strong>2024</strong><br>Master Data Science en Santé
     </div>
   </div>
-
-  .date {
-  text-decoration: underline; /* Souligne la date */
-}
 
   <script>
     // Animation d'apparition des événements avec un délai
