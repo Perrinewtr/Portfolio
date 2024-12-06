@@ -4,6 +4,11 @@ body {
     width: 100%; /* Assurer que le body prend toute la largeur */
 }
 
+.cadran {
+    margin: 0;
+    width: 100%;
+}
+
 .container {
     width: 100%; /* S'assurer que le container occupe toute la largeur */
     max-width: none; /* Enlever toute limite de largeur */
@@ -13,8 +18,4 @@ body {
     margin: 0;
     padding: 0;
     width: 100vw; /* Prend toute la largeur de la fenêtre */
-}
-
-main {
-    margin-top: 70px; /* Ajuste cette valeur pour correspondre à la hauteur de la barre de navigation */
 }
