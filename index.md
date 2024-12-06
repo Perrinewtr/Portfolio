@@ -4,6 +4,9 @@
     section {
       scroll-margin-top: 60px; /* Permet de ne pas cacher le titre lors du défilement */
     }
+    h2 {
+      color: #68B0AB !important; /* Ajoutez !important pour forcer l'application du style */
+    }
 
   </style>
 
