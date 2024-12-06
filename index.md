@@ -7,6 +7,10 @@
     h2 {
       color: #68B0AB !important; /* Ajoutez !important pour forcer l'application du style */
     }
+    
+    h4 {
+      color: #68B0AB !important; /* Ajoutez !important pour forcer l'application du style */
+    }
 
   </style>
 
