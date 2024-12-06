@@ -21,7 +21,7 @@
     
 Voici mon portfolio, qui rassemble une sélection des projets que j'ai pu réaliser dans le cadre de mes études et de mes expériences professionnelles.<br> <br>
 
-Voici un aperçu de mon parcours professionnel et mes compétences en Data Science. </p> <br> <br><br>
+Voici un aperçu de mon parcours professionnel et mes compétences en Data Science. </p> <br> <br> <br>
 
 <html lang="fr">
 <head>
