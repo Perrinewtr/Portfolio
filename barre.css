@@ -10,6 +10,11 @@ nav {
     box-shadow: 0 4px 2px -2px gray;
 }
 
+.container {
+    width: 100%;
+    max-width: none;
+}
+
 body {
     margin: 0;
     padding-top: 70px; /* Ajuste cette valeur en fonction de la hauteur de ta barre de navigation */
