@@ -101,7 +101,7 @@ Voici un aperçu de mon parcours professionnel et mes compétences en Data Scien
       opacity: 0;
       transform: translateY(20px);
       transition: all 0.4s ease-in-out;
-      border: 2px solid #006f8e; /* Bordure de l'événement */
+      border: 2px solid #9ad0d6; /* Bordure de l'événement */
     }
 
     .timeline-event.visible {
