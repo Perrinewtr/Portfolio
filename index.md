@@ -21,7 +21,7 @@
     
 Voici mon portfolio, qui rassemble une sélection des projets que j'ai pu réaliser dans le cadre de mes études et de mes expériences professionnelles.<br> <br>
 
-Découvrez mon parcours professionnel et mes compétences en Data Science à travers mon CV <br> ci-dessous. </p> <br> 
+Découvrez mon parcours professionnel et mes compétences en Data Science à travers mon CV <br> ci-dessous. </p> <br> <br>
 
 <head>
   <meta charset="UTF-8">
@@ -41,21 +41,22 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
       margin: 50px auto;
     }
 
+    /* Ligne fine et flèches */
     .timeline-line {
       position: absolute;
       top: 50%;
       left: 0;
       width: 100%;
-      height: 3px;
-      background: linear-gradient(to right, #6c63ff, #a78bfa);
+      height: 2px;
+      background-color: #6c63ff;
     }
 
     .timeline-point {
       position: absolute;
       top: 50%;
       transform: translate(-50%, -50%);
-      width: 20px;
-      height: 20px;
+      width: 12px;
+      height: 12px;
       background-color: #6c63ff;
       border: 3px solid white;
       border-radius: 50%;
@@ -66,10 +67,31 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
 
     .timeline-point:hover {
       background-color: #a78bfa;
-      transform: scale(1.3);
+      transform: scale(1.5);
       box-shadow: 0 0 15px rgba(167, 139, 250, 0.7);
     }
 
+    /* Flèches aux points */
+    .timeline-point::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 0;
+      height: 0;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-top: 12px solid #6c63ff;
+      transform: translate(-50%, 0);
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    .timeline-point:hover::after {
+      opacity: 1;
+    }
+
+    /* Événements alternés */
     .timeline-event {
       position: absolute;
       width: 200px;
@@ -78,16 +100,14 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
       color: #333;
     }
 
-    .event-above { top: calc(50% - 80px); } /* Au-dessus de la ligne */
-    .event-below { top: calc(50% + 40px); } /* En-dessous de la ligne */
+    .event-above { top: calc(50% - 80px); }
+    .event-below { top: calc(50% + 40px); }
 
-    /* Positionnement des points */
     .point1 { left: 10%; }
     .point2 { left: 35%; }
     .point3 { left: 60%; }
     .point4 { left: 85%; }
 
-    /* Positionnement des événements */
     .event1 { left: calc(10% - 100px); }
     .event2 { left: calc(35% - 100px); }
     .event3 { left: calc(60% - 100px); }
@@ -97,7 +117,7 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
 <body>
 
   <div class="timeline-container">
-    <!-- Ligne centrale -->
+    <!-- Ligne fine -->
     <div class="timeline-line"></div>
 
     <!-- Points interactifs -->
@@ -108,22 +128,22 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
 
     <!-- Événements -->
     <div class="timeline-event event1 event-above">
-      <strong>2020</strong><br>Début du Master
+      <strong>2019</strong><br>Obtention du baccalauréat scientifique
     </div>
     <div class="timeline-event event2 event-below">
-      <strong>2021</strong><br>Premier stage
+      <strong>2021</strong><br>Licence Sciences de La Vie 
     </div>
     <div class="timeline-event event3 event-above">
-      <strong>2023</strong><br>Projet IA
+      <strong>2023</strong><br>Stage à l'IPMC au CNRS
     </div>
     <div class="timeline-event event4 event-below">
-      <strong>2024</strong><br>Portfolio interactif
+      <strong>2024</strong><br>Master Data Science en Santé 
     </div>
   </div>
 
 </body>
 
-<br><br>
+<br><br><br>
 <a href="https://raw.githubusercontent.com/Perrinewtr/Portfolio/main/CV%20Perrine_12%3A2024.pdf" download>CV</a>
 </section>
 
