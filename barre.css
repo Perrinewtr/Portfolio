@@ -50,10 +50,6 @@ nav ul li a:hover {
     background-color: #4F8A8B;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 html {
     scroll-behavior: smooth;
 }
