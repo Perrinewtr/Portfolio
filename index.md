@@ -23,6 +23,7 @@ Voici mon portfolio, qui rassemble une sélection des projets que j'ai pu réali
 
 Découvrez mon parcours professionnel et mes compétences en Data Science à travers mon CV <br> ci-dessous. </p> <br> <br>
 
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -88,6 +89,12 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
       box-shadow: 0 0 20px rgba(0, 151, 182, 0.7);
     }
 
+    /* Positionnement des points */
+    .point1 { left: 10%; }
+    .point2 { left: 35%; }
+    .point3 { left: 60%; }
+    .point4 { left: 85%; }
+
     /* Événements avec arrière-plan et animations */
     .timeline-event {
       position: absolute;
@@ -110,13 +117,8 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
     }
 
     /* Positionnement des événements alternés */
-    .event-above { top: calc(50% - 60px); }
-    .event-below { top: calc(50% + 50px); }
-
-    .point1 { left: 10%; }
-    .point2 { left: 35%; }
-    .point3 { left: 60%; }
-    .point4 { left: 85%; }
+    .event-above { top: calc(50% - 80px); }
+    .event-below { top: calc(50% + 60px); }
 
     .event1 { left: calc(10% - 110px); }
     .event2 { left: calc(35% - 110px); }
@@ -149,6 +151,7 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
     <div class="timeline-point point3"></div>
     <div class="timeline-point point4"></div>
 
+    <!-- Événements -->
     <div class="timeline-event event1 event-above">
       <strong>2019</strong><br>Obtention du baccalauréat scientifiques
     </div>
@@ -176,7 +179,7 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
   </script>
 
 </body>
-
+</html>
 <br><br><br>
 <a href="https://raw.githubusercontent.com/Perrinewtr/Portfolio/main/CV%20Perrine_12%3A2024.pdf" download>CV</a>
 </section>
