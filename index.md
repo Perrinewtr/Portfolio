@@ -60,7 +60,7 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
       right: 0;
       width: 0;
       height: 0;
-      border-left: 10px solid #006f8e;
+      border-left: 20px solid #006f8e;
       border-top: 5px solid transparent;
       border-bottom: 5px solid transparent;
       transform: translateY(-50%);
