@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+.hero { /* Remplace .hero par la classe de la section de ton thème */
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: none;
+}
