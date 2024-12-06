@@ -62,5 +62,5 @@ title: "Projet 5 - Méthode d'Analyse de Données : Clustering Hiérarchique sur
 </style>
 
 <div style="position: fixed; bottom: 10px; right: 20px">
-  <a href="{{ site.baseurl }}/index.html" class="return-link">🚪 Retour</a>
+  <a href="{{ site.baseurl }}/index.html" class="return-link">Accueil</a>
 </div>
