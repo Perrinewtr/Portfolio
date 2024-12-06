@@ -1,16 +1,18 @@
-body {
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-}
-
-.hero { /* Remplace .hero par la classe de la section de ton thème */
-    width: 100vw;
-    margin: 0;
-    padding: 0;
+.hero {
+    width: 100vw !important; /* Forcer la largeur à 100% de la largeur de l'écran */
+    margin: 0 !important;     /* Supprimer les marges */
+    padding: 0 !important;    /* Supprimer les paddings internes */
+    background-color: #68B0AB; /* La couleur que tu veux */
 }
 
 .container {
-    width: 100%;
-    max-width: none;
+    width: 100% !important; /* S'assurer que la largeur de l'élément contenant est bien 100% */
+    max-width: none !important; /* Pas de maximum sur la largeur */
+}
+
+/* Si tu veux aussi que le corps du site occupe toute la largeur */
+body {
+    width: 100vw !important;
+    margin: 0;
+    padding: 0;
 }
