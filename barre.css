@@ -1,4 +1,3 @@
-/* Styles pour la barre de navigation */
 nav {
     position: fixed;
     top: 0;
@@ -9,34 +8,39 @@ nav {
     padding: 10px 0; /* Espacement vertical */
     text-align: center;
     box-shadow: 0 4px 2px -2px gray; /* Ombre sous la barre */
-  }
-  
-  nav ul {
+}
+
+nav ul {
     list-style-type: none; /* Enlève les puces des éléments de la liste */
     padding: 0;
     margin: 0;
     display: flex; /* Utilise flexbox pour disposer les éléments horizontalement */
     justify-content: center; /* Centre les éléments dans la barre */
-  }
-  
-  nav ul li {
+}
+
+nav ul li {
     margin: 0 20px; /* Marge entre les éléments de la liste */
-  }
-  
-  nav ul li a {
+}
+
+nav ul li a {
     text-decoration: none;
     color: white;
     font-size: 18px;
     padding: 10px 20px; /* Espacement autour du texte */
     border-radius: 8px; /* Coins arrondis */
     transition: background-color 0.3s; /* Animation pour le changement de couleur au survol */
-  }
-  
-  nav ul li a:hover {
+}
+
+nav ul li a:hover {
     background-color: #4F8A8B; /* Couleur de survol */
-  }
-  
-  /* Effet de défilement fluide */
-  html {
+}
+
+/* Effet de défilement fluide */
+html {
     scroll-behavior: smooth;
-  }
+}
+
+/* Ajustement pour compenser la barre de navigation */
+body {
+    padding-top: 60px; /* Ajoute un padding pour éviter que la barre de navigation ne recouvre le contenu */
+}
