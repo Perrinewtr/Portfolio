@@ -23,7 +23,6 @@ Voici mon portfolio, qui rassemble une sélection des projets que j'ai pu réali
 
 Découvrez mon parcours professionnel et mes compétences en Data Science à travers mon CV <br> ci-dessous. </p> <br> <br>
 
-<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -116,9 +115,9 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
       transform: translateY(0);
     }
 
-    /* Positionnement des événements alternés */
-    .event-above { top: calc(50% - 80px); }
-    .event-below { top: calc(50% + 60px); }
+    /* Positionnement des événements alternés, plus proches de la ligne */
+    .event-above { top: calc(50% - 40px); }
+    .event-below { top: calc(50% + 25px); }
 
     .event1 { left: calc(10% - 110px); }
     .event2 { left: calc(35% - 110px); }
@@ -153,16 +152,20 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
 
     <!-- Événements -->
     <div class="timeline-event event1 event-above">
-      <strong>2019</strong><br>Obtention du baccalauréat scientifiques
+      <h3>2019</h3>
+      <p>Obtention du baccalauréat scientifiques</p>
     </div>
     <div class="timeline-event event2 event-below">
-      <strong>2021</strong><br>Licence Sciences de La Vie 
+      <h3>2021</h3>
+      <p>Licence Sciences de La Viee</p>
     </div>
     <div class="timeline-event event3 event-above">
-      <strong>2023</strong><br>Stage à l'IPMC au CNRS 
+      <h3>2023</h3>
+      <p>Stage à l'IPMC au CNRS /p>
     </div>
     <div class="timeline-event event4 event-below">
-      <strong>2024</strong><br>Master Data Science en Santé 
+      <h3>2024</h3>
+      <p>Master Data Science en Santé </p>
     </div>
   </div>
 
@@ -179,7 +182,7 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
   </script>
 
 </body>
-</html>
+
 <br><br><br>
 <a href="https://raw.githubusercontent.com/Perrinewtr/Portfolio/main/CV%20Perrine_12%3A2024.pdf" download>CV</a>
 </section>
