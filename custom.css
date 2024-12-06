@@ -1,7 +1,7 @@
 body {
     margin: 0; /* Supprimer la marge par défaut */
     padding: 0; /* Supprimer le padding */
-    width: 100%; /* Assurer que le body prend toute la largeur */
+    width: 100vw; /* Assurer que le body prend toute la largeur */
 }
 
 .container {
