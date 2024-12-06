@@ -48,8 +48,10 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
       top: 50%;
       left: 0;
       width: calc(100% - 30px);
-      height: 2px;
+      height: 3px;
       background-color: #006f8e;
+      border-radius: 2px;
+      box-shadow: 0 4px 10px rgba(0, 111, 142, 0.5);
     }
 
     .timeline-line::after {
@@ -70,36 +72,36 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
       position: absolute;
       top: 50%;
       transform: translate(-50%, -50%);
-      width: 12px;
-      height: 12px;
+      width: 15px;
+      height: 15px;
       background-color: #006f8e;
       border: 3px solid white;
       border-radius: 50%;
-      box-shadow: 0 0 10px rgba(0, 111, 142, 0.5);
+      box-shadow: 0 0 15px rgba(0, 111, 142, 0.5);
       transition: all 0.3s ease-in-out;
       cursor: pointer;
     }
 
     .timeline-point:hover {
       background-color: #0097b6;
-      transform: scale(1.5);
-      box-shadow: 0 0 15px rgba(0, 151, 182, 0.7);
+      transform: scale(1.6);
+      box-shadow: 0 0 20px rgba(0, 151, 182, 0.7);
     }
 
     /* Événements avec arrière-plan et animations */
     .timeline-event {
       position: absolute;
-      width: 180px;
+      width: 220px;
       font-size: 14px;
       text-align: center;
       color: #333;
       background-color: #e0f7fa;
-      padding: 8px;
-      border-radius: 6px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 12px;
+      border-radius: 8px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
       opacity: 0;
-      transform: translateY(20px);
-      transition: all 0.4s ease-in-out;
+      transform: translateY(30px);
+      transition: all 0.5s ease-in-out;
     }
 
     .timeline-event.visible {
@@ -108,18 +110,30 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
     }
 
     /* Positionnement des événements alternés */
-    .event-above { top: calc(50% - 50px); }
-    .event-below { top: calc(50% + 40px); }
+    .event-above { top: calc(50% - 60px); }
+    .event-below { top: calc(50% + 50px); }
 
     .point1 { left: 10%; }
     .point2 { left: 35%; }
     .point3 { left: 60%; }
     .point4 { left: 85%; }
 
-    .event1 { left: calc(10% - 90px); }
-    .event2 { left: calc(35% - 90px); }
-    .event3 { left: calc(60% - 90px); }
-    .event4 { left: calc(85% - 90px); }
+    .event1 { left: calc(10% - 110px); }
+    .event2 { left: calc(35% - 110px); }
+    .event3 { left: calc(60% - 110px); }
+    .event4 { left: calc(85% - 110px); }
+
+    /* Style supplémentaire pour donner de la vie à la timeline */
+    .timeline-event h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+      color: #004d5e;
+    }
+
+    .timeline-event p {
+      font-size: 14px;
+      color: #333;
+    }
 
   </style>
 </head>
@@ -135,7 +149,6 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
     <div class="timeline-point point3"></div>
     <div class="timeline-point point4"></div>
 
-    <!-- Événements -->
     <div class="timeline-event event1 event-above">
       <strong>2019</strong><br>Obtention du baccalauréat scientifiques
     </div>
@@ -157,7 +170,7 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
       events.forEach((event, index) => {
         setTimeout(() => {
           event.classList.add("visible");
-        }, index * 500); // Délai entre chaque apparition
+        }, index * 600); // Délai entre chaque apparition
       });
     });
   </script>
