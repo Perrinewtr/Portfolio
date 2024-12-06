@@ -166,7 +166,7 @@ Voici un aperçu de mon parcours professionnel et mes compétences en Data Scien
 </body>
 </html>
 
-<br> <br> <br><br> <br>
+<br> <br> <br> <br> <br> <br>
 
   <p> Pour un aperçu complet de mes qualifications et expériences professionnelles, n'hésitez pas à consulter mon CV.</p>
 <br>
