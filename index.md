@@ -93,7 +93,7 @@ Voici un aperçu de mon parcours professionnel et mes compétences en Data Scien
       width: 180px;
       font-size: 14px;
       text-align: center;
-      color: #333;
+      color: white;
       background-color: #68B0AB;
       padding: 8px;
       border-radius: 12px;
