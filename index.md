@@ -123,10 +123,6 @@ Voici un aperçu de mon parcours professionnel et mes compétences en Data Scien
     .event3 { left: calc(60% - 90px); }
     .event4 { left: calc(85% - 90px); }
 
-    .date {
-      text-decoration: underline;
-    }
-
   </style>
 </head>
 <body>
@@ -142,16 +138,16 @@ Voici un aperçu de mon parcours professionnel et mes compétences en Data Scien
     <div class="timeline-point point4"></div>
 
     <div class="timeline-event event1 event-above">
-      <strong class="date">2019</strong><br>Baccalauréat Scientifique
+      <strong>2019</strong><br>Baccalauréat Scientifique
     </div>
     <div class="timeline-event event2 event-below">
-      <strong class="date">2021</strong><br>Licence Sciences de La Vie
+      <strong>2021</strong><br>Licence Sciences de La Vie
     </div>
     <div class="timeline-event event3 event-above">
-      <strong class="date">2023</strong><br>Stage à l'IPMC au CNRS
+      <strong>2023</strong><br>Stage à l'IPMC au CNRS
     </div>
     <div class="timeline-event event4 event-below">
-      <strong class="date">2024</strong><br>Master Data Science en Santé
+      <strong>2024</strong><br>Master Data Science en Santé
     </div>
   </div>
 
