@@ -96,11 +96,12 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
       color: #333;
       background-color: #e0f7fa;
       padding: 8px;
-      border-radius: 6px;
+      border-radius: 12px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       opacity: 0;
       transform: translateY(20px);
       transition: all 0.4s ease-in-out;
+      border: 2px solid #006f8e; /* Bordure de l'événement */
     }
 
     .timeline-event.visible {
@@ -137,16 +138,16 @@ Découvrez mon parcours professionnel et mes compétences en Data Science à tra
     <div class="timeline-point point4"></div>
 
     <div class="timeline-event event1 event-above">
-      <strong>2019</strong><br>Obtention du baccalauréat scientifiques
+      <strong>2019</strong><br>Obtention du baccalauréat scientifique
     </div>
     <div class="timeline-event event2 event-below">
-      <strong>2021</strong><br>Licence Sciences de La Vie 
+      <strong>2021</strong><br>Licence Sciences de La Vie
     </div>
     <div class="timeline-event event3 event-above">
-      <strong>2023</strong><br>Stage à l'IPMC au CNRS 
+      <strong>2023</strong><br>Stage à l'IPMC au CNRS
     </div>
     <div class="timeline-event event4 event-below">
-      <strong>2024</strong><br>Master Data Science en Santé 
+      <strong>2024</strong><br>Master Data Science en Santé
     </div>
   </div>
 
