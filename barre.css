@@ -1,8 +1,8 @@
 nav {
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
+    left: 0 !important;;
+    width: 100% !important;;
     background-color: #68B0AB; /* Couleur de fond de la barre */
     z-index: 1000;
     padding: 10px 0; /* Espacement vertical */
