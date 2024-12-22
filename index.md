@@ -185,6 +185,13 @@ Voici un aperçu de mon parcours professionnel et mes compétences en Data Scien
         <span style="margin-right: 5px;">📄</span> CV
     </a>
 </div>
+<style>
+    a:hover {
+        background-color: #557c76; /* Couleur au survol */
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Ombre autour du bouton */
+        transform: scale(1.05); /* Agrandir légèrement le bouton */
+    }
+</style>
  <br>
 <section id="Projets">
   <h2>Mes projets</h2>
