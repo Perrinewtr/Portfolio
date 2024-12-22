@@ -179,8 +179,15 @@ Voici un aperçu de mon parcours professionnel et mes compétences en Data Scien
 
   <p> Pour un aperçu complet de mes qualifications et expériences professionnelles, n'hésitez pas à consulter mon CV.</p>
 
-<a href="https://raw.githubusercontent.com/Perrinewtr/Portfolio/main/CV%20Perrine_12%3A2024.pdf" download>CV</a>
-</section>
+<a href="#" id="cv-link">
+    <img src="Users/perrine/Desktop/M1/photo.png" alt="Aperçu CV" id="cv-thumbnail" style="width: 150px; border-radius: 10px; transition: transform 0.3s;">
+</a>
+
+<!-- Fenêtre modale -->
+<div id="cv-modal" class="cv-modal">
+    <span class="close">&times;</span>
+    <iframe src="https://raw.githubusercontent.com/Perrinewtr/Portfolio/main/CV%20Perrine_12%3A2024.pdf" width="100%" height="600px"></iframe>
+</div>
  <br>
 <section id="Projets">
   <h2>Mes projets</h2>
