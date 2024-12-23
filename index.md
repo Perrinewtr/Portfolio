@@ -222,6 +222,11 @@ Voici un aperçu de mon parcours professionnel et mes compétences en Data Scien
       Projet 5 : Méthode d'Analyse de Données : Clustering Hiérarchique sur des Automobiles. <br>
       <em> Pour en savoir plus : </em><a href="automobile.html">Projet 5</a>
    </li>
+    <br> 
+    <li>
+      Projet 6 : Méthode d'Analyse de Données : Bibliometric analysis of research on side effects of pharmacological treatments for children with autism spectrum disorder. <br>
+      <em> Pour en savoir plus : </em><a href="bibliometrie.html">Projet 5</a>
+   </li>
 </ul>
 </section>
 
