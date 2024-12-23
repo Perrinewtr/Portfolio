@@ -224,7 +224,7 @@ Voici un aperçu de mon parcours professionnel et mes compétences en Data Scien
    </li>
     <br> 
     <li>
-      Projet 6 : Méthode d'Analyse de Données : Bibliometric analysis of research on side effects of pharmacological treatments for children with autism spectrum disorder. <br>
+      Projet 6 : Bibliometric analysis of research on side effects of pharmacological treatments for children with autism spectrum disorder. <br>
       <em> Pour en savoir plus : </em><a href="bibliometrie.html">Projet 6</a>
    </li>
 </ul>
