@@ -1,0 +1,68 @@
+---
+layout: default
+title: Projet 6 - Bibliometric analysis of research on side effects of pharmacological treatments for children with autism spectrum disorder
+---
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet 6 - Bibliometric analysis of research on side effects of pharmacological treatments for children with autism spectrum disorder.</title>
+    <style>
+        /* Style des boutons "Voir le projet" et "Télécharger" */
+        .button-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #68B0AB;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .button-link:hover {
+            background-color: #4a8b83; /* Couleur au survol */
+        }
+
+        /* Style des liens simples pour les autres projets */
+        .simple-link {
+            color: #68B0AB;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        .simple-link:hover {
+            text-decoration: underline;
+            color: #4a8b83;
+        }
+    </style>
+</head>
+<body>
+    <!-- Informations sur le projet -->
+    <div><strong>Titre :</strong> Bibliometric analysis of research on side effects of pharmacological treatments for children with autism spectrum disorder.</div><br>
+    <div><strong>Objectif :</strong> The objective of this bibliometric analysis is to investigate the trends and developments in research on the side effects of pharmacological treatments for children with Autism Spectrum Disorder (ASD) from 2010 to 2024. The study aims to examine the evolution of scientific publications on this topic, identify key research areas, geographical contributions, and influential journals, and highlight the challenges and opportunities for improving pharmacological treatments while minimizing their side effects.</div><br>
+    <div><strong>Outils :</strong> Web of Science database</div><br>
+
+    <!-- Boutons "Voir le projet" et "Télécharger" -->
+    <div style="display: flex; gap: 20px; justify-content: center;">
+        <a href="https://Perrinewtr.github.io/Portfolio/bibliometric_analysis.pdf" target="_blank" class="button-link">📊 Voir le projet</a>
+        <a href="https://raw.githubusercontent.com/Perrinewtr/Portfolio/main/bibliometric_analysis.pdf" class="button-link">📥 Télécharger le projet</a>
+    </div>
+
+    <br><br>
+
+    <!-- Liens simples pour les autres projets -->
+    <div style="display: flex; gap: 10px; justify-content: center;">
+        <a href="{{ site.baseurl }}/projet" class="simple-link">Projet 1  |</a>
+        <a href="{{ site.baseurl }}/projet2" class="simple-link">Projet 2  |</a>
+        <a href="{{ site.baseurl }}/arthero" class="simple-link">Projet 3  |</a>
+        <a href="{{ site.baseurl }}/automobile" class="simple-link">Projet 5 </a>
+    </div>
+    <div style="position: fixed; bottom: 10px; right: 20px">
+        <a href="{{ site.baseurl }}/index.html" class="return-link">Accueil</a>
+    </div>
+</body>
+</html>
