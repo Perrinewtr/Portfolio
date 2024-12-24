@@ -250,7 +250,7 @@ Voici un aperçu de mon parcours professionnel et mes compétences en Data Scien
     <li>Clustering</li>
   </ul>
   
-  <h4 style="margin-top: 5px;">Base de données et gestion de données :</h4>
+  <h4 style="margin-top: 5px;">Bases de données et gestion de données :</h4>
   <ul>
     <li>SQLite</li>
     <li>DataHub</li>
