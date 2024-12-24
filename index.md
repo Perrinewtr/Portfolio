@@ -233,20 +233,21 @@ Voici un aperçu de mon parcours professionnel et mes compétences en Data Scien
  <br>
 <section id="Compétences">
   <h2>Mes compétences</h2>
-  <h4 style="margin-top: 5px;">Langage de programmation :</h4>
+  <h4 style="margin-top: 5px;">Langages de programmation :</h4>
   <ul>
     <li>Python</li>
     <li>R</li>
     <li>SQL</li>
   </ul>
   
-  <h4 style="margin-top: 5px;">Outil de Data Sciences :</h4>
+  <h4 style="margin-top: 5px;">Outils pour la Data Science :</h4>
   <ul>
     <li>Jupyter, Rstudio, Visual Studio Code, Pycharm</li>
-    <li>Outils statistiques</li>
+    <li>Statistiques descriptives</li>
     <li>Gestion et nettoyage des données</li>
     <li>Web scraping</li>
     <li>Web crawling</li>
+    <li>Clustering</li>
   </ul>
   
   <h4 style="margin-top: 5px;">Base de données et gestion de données :</h4>
